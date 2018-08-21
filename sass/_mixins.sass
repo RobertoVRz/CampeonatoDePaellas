@@ -1,0 +1,48 @@
+// GLOBAL MIXINS
+
+// MIXIN DE NAVBAR GRADIENTE
+=grad-color($lado,$grad1, $grad2)
+    background: -webkit-linear-gradient($lado, $grad1, $grad2)
+    background: -o-linear-gradient($lado, $grad1, $grad2)
+    background: -moz-linear-gradient($lado, $grad1, $grad2)
+    background: linear-gradient($lado, $grad1, $grad2)
+
+//MIXIN PARA BOTON FAV DE LAS CARDS
+=translate-3d($dato1,$dato1,$dato3)
+    -webkit-transform: translate3D($dato1,$dato1,$dato3)
+    -moz-transform: translate3D($dato1,$dato1,$dato3)
+    transform: translate3D($dato1,$dato1,$dato3)
+
+=filter($porcentaje)
+    -webkit-filter: grayscale($porcentaje)
+    filter: grayscale($porcentaje)
+
+// MIXIN DE LAS CARDS PARA REDONDEO Y SOMBRAS
+=redondeado($radius)
+    -webkit-border-radius: $radius
+    -moz-border-radius: $radius
+    border-radius: $radius
+
+=sombra($shadowColor)
+    -webkit-box-shadow: $shadowColor
+    -moz-box-shadow: $shadowColor
+    box-shadow: $shadowColor
+
+=boton-base()
+    flex: 1 1 auto
+    margin: 10px
+    padding: 10px
+    text-align: center
+    transition: 0.5s
+    background-size: 200% auto
+    color: white
+    border-radius: 15px
+
+=titulo($color)
+    font-family: Lato
+    font-size: 30px
+    font-style: normal
+    font-variant: normal
+    font-weight: 500
+    line-height: 26.4px
+    color: $color
