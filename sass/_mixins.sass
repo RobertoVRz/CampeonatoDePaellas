@@ -1,5 +1,5 @@
 // GLOBAL MIXINS
-
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto')
 // MIXIN DE NAVBAR GRADIENTE
 =grad-color($lado,$grad1, $grad2)
     background: -webkit-linear-gradient($lado, $grad1, $grad2)
@@ -38,11 +38,20 @@
     color: white
     border-radius: 15px
 
-=titulo($color)
-    font-family: Lato
-    font-size: 30px
-    font-style: normal
-    font-variant: normal
-    font-weight: 500
+=Lora($color, $tipo,$size)
+    font-family: 'Lora', serif
+    font-size: $size
+    font-style: $tipo
+    font-weight: 400
     line-height: 26.4px
     color: $color
+
+=Roboto($color, $tipo,$size)
+    font-family: 'Roboto', sans-serif
+    font-size: $size
+    font-style: $tipo
+    font-weight: 400
+    line-height: 26.4px
+    color: $color
+
+    
