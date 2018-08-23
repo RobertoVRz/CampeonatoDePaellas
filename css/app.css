@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto");
-@import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto:300,400");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto:300,400");
 body {
   overflow-x: hidden; }
 
@@ -101,6 +101,24 @@ p {
   margin-left: 300%;
   margin-top: 20%;
   height: 200px; }
+
+.textito {
+  margin-top: -50%;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  z-index: 4;
+  text-align: center;
+  align-content: center; }
+
+.fondocolor {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 600px;
+  font-size: 30px;
+  opacity: 1;
+  padding: 15px;
+  color: white;
+  width: 100%; }
 
 #videoPaella {
   margin-left: -15px;
@@ -237,7 +255,7 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 26.4px;
   color: white; }
   .btnBases:hover {
@@ -275,7 +293,92 @@ p {
   font-weight: 400;
   line-height: 26.4px;
   color: #298291;
-  margin-top: -15%;
-  margin-left: -40%; }
+  margin-top: -10%;
+  margin-left: 10%;
+  width: 100%; }
+
+.izquierda {
+  margin-left: -20%;
+  margin-top: 10%; }
+
+.visitantes {
+  margin-left: -13%;
+  width: 100%;
+  margin-top: 20px; }
+
+.paelleros {
+  margin-left: 0%;
+  width: 100%;
+  margin-top: 18px; }
+
+.azul {
+  font-family: "Lora", serif;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 26.4px;
+  color: #298291; }
+
+.recortado {
+  width: 600px;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26.4px;
+  color: black; }
+
+.line {
+  border-left: 2px solid grey;
+  height: 400px;
+  padding: 10px;
+  margin-top: -2%; }
+
+.btnVisitante {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: #288292;
+  margin-top: 20%;
+  margin-left: 35%;
+  font-size: 20px; }
+  .btnVisitante:hover {
+    color: #288292;
+    background-color: white; }
+
+.btnPaellero {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #288292;
+  background-color: white;
+  margin-top: 20%;
+  margin-left: 35%;
+  font-size: 20px; }
+  .btnPaellero:hover {
+    color: white;
+    background-color: #288292; }
+
+.slider-7 {
+  background-color: #EBE9E6; }
+
+#titulo7 {
+  color: #288292;
+  width: 100%; }
+
+.row7 {
+  width: 100%; }
+
+.slider-8 {
+  background-color: black; }
+
+.rowMapa {
+  height: 100%;
+  width: 100%; }
+
+#map {
+  height: 100%;
+  margin-left: -15px; }
 
 /*# sourceMappingURL=app.css.map */

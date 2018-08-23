@@ -1,5 +1,5 @@
 // GLOBAL MIXINS
-@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto')
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto:300,400')
 // MIXIN DE NAVBAR GRADIENTE
 =grad-color($lado,$grad1, $grad2)
     background: -webkit-linear-gradient($lado, $grad1, $grad2)
@@ -50,8 +50,19 @@
     font-family: 'Roboto', sans-serif
     font-size: $size
     font-style: $tipo
-    font-weight: 400
+    font-weight: 300
     line-height: 26.4px
     color: $color
+
+=btnBoletia($px,$color,$back,$color2,$back2)
+    +redondeado($px)
+    color: $color
+    background-color: $back
+    margin-top: 20%
+    margin-left: 35%
+    font-size: 20px
+    &:hover
+        color: $color2
+        background-color: $back2
 
     
