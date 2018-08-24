@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto:300,400");
 @import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto:300,400");
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden !important; }
 
 h1 {
   color: white; }
@@ -31,7 +31,7 @@ p {
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26.4px;
+  line-height: 35px;
   color: white; }
   .btnMenu:hover {
     color: white;
@@ -79,7 +79,8 @@ p {
   align-content: center; }
 
 .scene {
-  width: 100%; }
+  width: 100%;
+  height: 100%; }
 
 .container {
   width: 100%;
@@ -88,28 +89,40 @@ p {
 #imgMesa {
   margin: 0%; }
 
+#imgCuchara {
+  height: 250px;
+  margin-top: 160%;
+  margin-left: 80%;
+  position: relative; }
+
 #imgPaella {
   margin-left: 30%;
   margin-top: 10%;
-  height: 450px; }
+  height: 500px; }
 
 #imgHoja {
   margin-left: 0%;
   margin-top: 50%; }
 
 #imgTomate {
-  margin-left: 300%;
+  margin-left: 250%;
   margin-top: 20%;
-  height: 200px; }
+  height: 400px; }
 
 .textito {
   margin-top: -50%;
-  height: 500px;
+  height: 100vh;
   width: 100%;
   position: relative;
-  z-index: 4;
+  z-index: 2;
   text-align: center;
-  align-content: center; }
+  align-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 35px;
+  color: white; }
 
 .fondocolor {
   background-color: rgba(0, 0, 0, 0.5);
@@ -122,7 +135,8 @@ p {
 
 #videoPaella {
   margin-left: -15px;
-  filter: drop-shadow(0px 0px 50px black); }
+  filter: drop-shadow(0px 0px 50px black);
+  z-index: 6; }
 
 .slider-3 {
   background-image: url(../img/arr.jpg);
@@ -160,7 +174,7 @@ p {
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26.4px;
+  line-height: 35px;
   color: white;
   text-align: center;
   z-index: 2;
@@ -174,7 +188,7 @@ p {
   font-size: 50px;
   font-style: italic;
   font-weight: 400;
-  line-height: 26.4px;
+  line-height: 35px;
   color: white;
   z-index: 2; }
 
@@ -207,7 +221,7 @@ p {
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26.4px;
+  line-height: 35px;
   color: white; }
 
 .p41 {
@@ -217,7 +231,7 @@ p {
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26.4px;
+  line-height: 35px;
   color: white; }
 
 #titulo4 {
@@ -228,7 +242,7 @@ p {
   font-size: 50px;
   font-style: italic;
   font-weight: 400;
-  line-height: 26.4px;
+  line-height: 35px;
   color: white; }
 
 .premios {
@@ -256,7 +270,7 @@ p {
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
-  line-height: 26.4px;
+  line-height: 35px;
   color: white; }
   .btnBases:hover {
     background-color: white;
@@ -268,14 +282,14 @@ p {
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26.4px;
+  line-height: 35px;
   color: white;
   margin-top: 18%; }
 
 #zanahoria {
   height: 500px;
   margin-left: 74%;
-  margin-top: -23%; }
+  margin-top: -23.5%; }
 
 .raritoRow {
   margin-top: 50%; }
@@ -291,7 +305,7 @@ p {
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26.4px;
+  line-height: 35px;
   color: #298291;
   margin-top: -10%;
   margin-left: 10%;
@@ -316,7 +330,7 @@ p {
   font-size: 40px;
   font-style: italic;
   font-weight: 400;
-  line-height: 26.4px;
+  line-height: 35px;
   color: #298291; }
 
 .recortado {
@@ -325,7 +339,7 @@ p {
   font-size: 25px;
   font-style: normal;
   font-weight: 300;
-  line-height: 26.4px;
+  line-height: 35px;
   color: black; }
 
 .line {
@@ -334,7 +348,7 @@ p {
   padding: 10px;
   margin-top: -2%; }
 
-.btnVisitante {
+.btnVisitante, .btnPaellero {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -343,22 +357,9 @@ p {
   margin-top: 20%;
   margin-left: 35%;
   font-size: 20px; }
-  .btnVisitante:hover {
+  .btnVisitante:hover, .btnPaellero:hover {
     color: #288292;
     background-color: white; }
-
-.btnPaellero {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  color: #288292;
-  background-color: white;
-  margin-top: 20%;
-  margin-left: 35%;
-  font-size: 20px; }
-  .btnPaellero:hover {
-    color: white;
-    background-color: #288292; }
 
 .slider-7 {
   background-color: #EBE9E6; }
@@ -370,6 +371,50 @@ p {
 .row7 {
   width: 100%; }
 
+.bui {
+  height: 100%; }
+
+.meson {
+  height: 100%; }
+
+.mundo {
+  height: 100%; }
+
+.monte {
+  height: 250%;
+  position: relative;
+  margin-top: -10%; }
+
+.boletia {
+  height: 90%; }
+
+.floyd {
+  height: 150%; }
+
+.heineken {
+  height: 100%;
+  position: relative;
+  margin-top: -4%; }
+
+.jokker {
+  height: 100%; }
+
+.opalo {
+  height: 85%;
+  position: relative;
+  margin-top: 2%; }
+
+.valquirico {
+  height: 120%;
+  position: relative;
+  margin-top: -5%; }
+
+.logos {
+  border-color: transparent;
+  border-style: solid;
+  height: 100px;
+  padding: 10px; }
+
 .slider-8 {
   background-color: black; }
 
@@ -378,7 +423,6 @@ p {
   width: 100%; }
 
 #map {
-  height: 100%;
-  margin-left: -15px; }
+  height: 100%; }
 
 /*# sourceMappingURL=app.css.map */
