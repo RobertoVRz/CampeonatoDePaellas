@@ -92,12 +92,16 @@ p {
 #imgCuchara {
   height: 250px;
   margin-top: 160%;
-  margin-left: 80%;
-  position: relative; }
+  margin-left: 80%; }
 
 #imgPaella {
   margin-left: 30%;
   margin-top: 10%;
+  height: 500px; }
+
+#imgCu {
+  margin-left: -30%;
+  margin-top: 70%;
   height: 500px; }
 
 #imgHoja {
@@ -105,9 +109,9 @@ p {
   margin-top: 50%; }
 
 #imgTomate {
-  margin-left: 250%;
-  margin-top: 20%;
-  height: 400px; }
+  margin-left: 450%;
+  margin-top: 50%;
+  height: 250px; }
 
 .textito {
   margin-top: -50%;
@@ -131,7 +135,8 @@ p {
   opacity: 1;
   padding: 15px;
   color: white;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 #videoPaella {
   margin-left: -15px;
@@ -266,11 +271,7 @@ p {
   height: 50px;
   margin-left: 45%;
   margin-top: 15%;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 35px;
+  font-weight: 400 !important;
   color: white; }
   .btnBases:hover {
     background-color: white;
@@ -307,7 +308,7 @@ p {
   font-weight: 400;
   line-height: 35px;
   color: #298291;
-  margin-top: -10%;
+  margin-top: -20%;
   margin-left: 10%;
   width: 100%; }
 
@@ -424,5 +425,43 @@ p {
 
 #map {
   height: 100%; }
+
+.titulin {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 35px;
+  color: #288292; }
+
+.subtitulin {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 35px;
+  color: #288292; }
+
+.parrafin {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 35px;
+  color: black; }
+
+.listilla {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 35px;
+  color: black; }
+
+.cuerpo {
+  background-color: #EBE9E6; }
+
+.span {
+  color: #288292; }
 
 /*# sourceMappingURL=app.css.map */
