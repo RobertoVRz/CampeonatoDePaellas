@@ -14,7 +14,11 @@ p {
 
 .slider-1, .slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7, .slider-8 {
   height: 100vh;
-  width: 100vw; }
+  width: 100vw;
+  position: relative; }
+
+.scene, .scene2, .scene3, .scene4, .scene5, .scene6, .scene7 {
+  position: relative; }
 
 /* Extra small devices (phones, 600px and down) */
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -22,13 +26,12 @@ p {
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 .menu-1 {
-  height: 100px;
-  background: transparent;
-  margin-top: 5px; }
+  height: 50px;
+  background: #670008; }
 
 .btnMenu {
   font-family: "Lora", serif;
-  font-size: 30px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 35px;
@@ -37,17 +40,18 @@ p {
     color: white;
     text-decoration: underline; }
 
-/*.sombra
- * -webkit-filter: blur(5px)
- * -moz-filter: blur(5px)
- * -o-filter: blur(5px)
- * -ms-filter: blur(5px)
- * filter: blur(5px)
- * width: 100%
- * height: 15px
- * background-color: black
- * display: float
- * margin-left: -15px */
+.sombra {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  width: 100%;
+  height: 10px;
+  background-color: black;
+  display: float;
+  z-index: 0; }
+
 /*.sombra2
  * -webkit-filter: blur(5px)
  * -moz-filter: blur(5px)
@@ -60,9 +64,9 @@ p {
  * display: float
  * margin-left: -15px
  * margin-top: -10px  */
-#logoBlanco {
-  height: 150px;
-  margin-top: 50px; }
+#cintillo {
+  height: 350px;
+  margin-top: 250px; }
 
 .footer {
   background: #444;
@@ -80,7 +84,23 @@ p {
 
 .scene {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  z-index: 2; }
+
+.btnComprar {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: #288292;
+  margin-top: 20%;
+  margin-left: 35%;
+  font-size: 20px;
+  margin-top: -20%;
+  margin-left: 70%; }
+  .btnComprar:hover {
+    color: #288292;
+    background-color: white; }
 
 .container {
   width: 100%;
@@ -105,8 +125,9 @@ p {
   height: 500px; }
 
 #imgHoja {
-  margin-left: 0%;
-  margin-top: 50%; }
+  margin-left: 20%;
+  margin-top: 50%;
+  height: 5oopx; }
 
 #imgTomate {
   margin-left: 450%;
@@ -137,11 +158,6 @@ p {
   color: white;
   width: 100%;
   position: relative; }
-
-#videoPaella {
-  margin-left: -15px;
-  filter: drop-shadow(0px 0px 50px black);
-  z-index: 6; }
 
 .slider-3 {
   background-image: url(../img/arr.jpg);
@@ -206,18 +222,26 @@ p {
   background-size: cover;
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
-  z-index: -1; }
+  z-index: 0; }
+
+#videoPaella {
+  filter: drop-shadow(10px 30px 50px black);
+  position: relative;
+  margin-top: 15%;
+  z-index: 999; }
 
 .scene3 {
-  width: 500px; }
+  width: 500px;
+  height: 100vh; }
 
 .scene4 {
   height: 100vh; }
 
 #imgCucharaArroz {
-  height: 600px;
-  margin-top: -40%;
-  margin-left: -5%; }
+  height: 500px;
+  margin-top: 90%;
+  margin-left: -50%;
+  z-index: 3; }
 
 .p4 {
   margin-top: 25px;
@@ -257,7 +281,8 @@ p {
 .slider-5 {
   background-image: url(../img/ab.jpg);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  z-index: -1; }
 
 .btnBases {
   background-color: transparent;
@@ -290,80 +315,18 @@ p {
 #zanahoria {
   height: 500px;
   margin-left: 74%;
-  margin-top: -23.5%; }
+  margin-top: -20%;
+  z-index: 99999; }
 
 .raritoRow {
-  margin-top: 50%; }
+  margin-top: 0%; }
 
 .slider-6 {
   background-color: #EBE9E6; }
 
-.rowTitulo6 {
-  margin-top: -20%; }
-
-#titulo6 {
-  font-family: "Lora", serif;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 35px;
-  color: #298291;
-  margin-top: -20%;
-  margin-left: 10%;
-  width: 100%; }
-
-.izquierda {
-  margin-left: -20%;
-  margin-top: 10%; }
-
-.visitantes {
-  margin-left: -13%;
-  width: 100%;
-  margin-top: 20px; }
-
-.paelleros {
-  margin-left: 0%;
-  width: 100%;
-  margin-top: 18px; }
-
-.azul {
-  font-family: "Lora", serif;
-  font-size: 40px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 35px;
-  color: #298291; }
-
-.recortado {
-  width: 600px;
-  font-family: "Roboto", sans-serif;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 35px;
-  color: black; }
-
-.line {
-  border-left: 2px solid grey;
-  height: 400px;
-  padding: 10px;
-  margin-top: -2%; }
-
-.btnVisitante, .btnPaellero {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  color: white;
-  background-color: #288292;
-  margin-top: 20%;
-  margin-left: 35%;
-  font-size: 20px; }
-  .btnVisitante:hover, .btnPaellero:hover {
-    color: #288292;
-    background-color: white; }
-
 .slider-7 {
-  background-color: #EBE9E6; }
+  background-color: #EBE9E6;
+  filter: drop-shadow(0px 0px 50px black); }
 
 #titulo7 {
   color: #288292;
@@ -390,7 +353,8 @@ p {
   height: 90%; }
 
 .floyd {
-  height: 150%; }
+  height: 150%;
+  margin-top: -5%; }
 
 .heineken {
   height: 100%;

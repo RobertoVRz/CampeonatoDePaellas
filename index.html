@@ -2,227 +2,125 @@
 <html lang="es">
 
 <head>
-  <!-- Required meta tags always come first -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Campeonato de Paellas</title>
-  <link rel="icon" type="image/png" href="img/favicon.png" />
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Campeonato de Paellas</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="css/bootstrap-flex.css">
-  <link rel="stylesheet" href="css/app.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-flex.css">
+    <link rel="stylesheet" href="css/app.css">
 
-  <!-- Scroll -->
-  <script src="js/smooth-scroll.min.js"></script>
-  <script>
-    smoothScroll.init({
-      selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
-      selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
-      speed: 2000, // Integer. How fast to complete the scroll in milliseconds
-      easing: 'easeInOutCubic', // Easing pattern to use
-      offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
-      callback: function (anchor, toggle) {} // Function to run after scrolling
-    });
-  </script>
-
+    
 </head>
 
 <body id="scrolls" style="overflow-x: hidden;">
 
-  <!-- MENÚ -->
-  
+    <!-- MENÚ -->
+
     <div class="container-fluid navbar-fixed-top">
-      <div class="row  menu-1 flex-items-xs-middle">
-        <div class="col-xs-3">
-          <img id="logoBlanco" src="img/logoBlanco.png">
+        <div class="row  menu-1 flex-items-xs-middle">
+            <div class="col-xs-3">
+                <img id="cintillo" src="img/cintillo.png">
+            </div>
+            <div class="col-xs-3">
+                <a data-scroll href="#sec-3" class="btn btnMenu" role="button" aria-pressed="true">Descripción</a>
+            </div>
+            <div class="col-xs-3">
+                <a data-scroll href="#sec-4" class="btn btnMenu" role="button" aria-pressed="true">Registro</a>
+            </div>
+            <div class="col-xs-3">
+                <a data-scroll href="#sec-5" class="btn btnMenu" role="button" aria-pressed="true">Ubicación</a>
+            </div>
         </div>
-        <div class="col-xs-3">
-          <a data-scroll href="#sec-1" class="btn btnMenu" role="button" aria-pressed="true">Descripción</a>
-        </div>
-        <div class="col-xs-3">
-          <a data-scroll href="#sec-6" class="btn btnMenu" role="button" aria-pressed="true">Registro</a>
-        </div>
-        <div class="col-xs-3">
-          <a data-scroll href="#sec-8" class="btn btnMenu" role="button" aria-pressed="true">Ubicación</a>
-        </div>
-      </div>
     </div>
     <!-- FIN MENU -->
-    
+
     <!-- SECCIÓN 1 -->
-    <div class="container" >
-      <div class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-1" >
-        <div id="container-fluid" class="container">
-          <div id="scene" class="scene">
-            <!--<div data-depth="0.20"><img id="imgMesa" src="img/mesa.jpeg"></div>-->
-            <div data-depth="0.20">
-              <img id="imgPaella" src="img/paella.png">
+    <div class="container">
+        <div class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-1">
+            <div id="container-fluid" class="container">
+
+                <div id="scene" class="scene">
+                    <!--<div data-depth="0.20"><img id="imgMesa" src="img/mesa.jpeg"></div>-->
+                    <div data-depth="0.20">
+                        <img id="imgPaella" src="img/paella.png">
+                    </div>
+                    <div data-depth="0.60">
+                        <img id="imgHoja" src="img/hoja.png">
+                    </div>
+
+                    <div data-depth="0.60">
+                        <img id="imgTomate" src="img/tomate.png">
+                    </div>
+                    <div data-depth="0.80">
+                        <img id="imgCu" src="img/cuchara_arroz.png">
+                    </div>
+
+                </div>
+                <button class="btn btnComprar" onclick="window.open('https://campeonato-nacional-de-paellas.boletia.com/')">Compra en Boletia</button>
             </div>
-            <div data-depth="0.60">
-              <img id="imgHoja" src="img/hoja.png">
-            </div>
-            
-            <div data-depth="0.60">
-              <img id="imgTomate" src="img/tomate.png">
-            </div>
-            <div data-depth="0.80">
-                <img id="imgCu" src="img/cuchara_arroz.png">
-              </div>
-            
-          </div>
         </div>
-        <div class="textito" id="boxscroll">
-          <p  >
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-          </p>
-          <p class="fondocolor">
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              En el Campeonato Nacional de Paellas Val ́Quirico<br>
-              2018 serás parte de una dura competencia, donde<br>
-              los mejores paelleros de todo el país serán juzgados<br>
-              por grandes chefs y los mismos comensales.<br><br>
-              
-              Viviremos una gran fiesta en Val ́Quirico, recinto<br>
-              en medio de la naturaleza adornado con arquitectura<br>
-              toscana. El olor de las diferentes paellas, el sabor<br>
-              de los vinos nacionales e internacionales y la música<br>
-              que tenemos preparada para ustedes, harán que<br>
-              pases una tarde sin igual.<br>
-            
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-         
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            ¡Sé parte del campeonato y degusta toda la paella que puedas comer!
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            
-          </p>
-        </div>
-        <div class="sombra"></div>
-      </div>
     </div>
     <!-- FIN SECCIÓN -->
-    
-    
-    
+
     <!-- SECCIÓN 2 -->
-    <div class="container-fluid">
-      <div class="row-100w slider-2 " id="sec-2">
-        <iframe id="videoPaella" width="100%" height="100%" src="https://www.youtube.com/embed/DXjvOi0UKzM" frameborder="0" allow="autoplay; encrypted-media"
-          webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
-    </div>
-    
     <!-- FIN SECCIÓN -->
-    
+
     <!-- SECCIÓN 3 -->
     <div class="container-fluid">
-      <div class="row slider-3" id="sec-3">
-        <div class="sombra2"></div>
-        <div class="row ">
-          <div class="row rowTitulo">
-            <h1 id="titulo3">¡Demuestra que tu paella es la mejor!</h1>
-          </div>
-    
-          <div class="col-6  ">
-            <div id="scene2" class="scene2">
-              <div data-depth="0.80">
-                <img id="imgTomate3" src="img/tomate.png">
-              </div>
+        <div class="row slider-3" id="sec-3">
+            <div class="sombra"></div>
+            <div class="row ">
+                <div class="row rowTitulo">
+                    <h1 id="titulo3">¡Demuestra que tu paella es la mejor!</h1>
+                </div>
+
+                <div class="col-6  ">
+                    <div id="scene2" class="scene2">
+                        <div data-depth="0.80">
+                            <img id="imgTomate3" src="img/tomate.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="descripcion">
+                        <p>En el Campeonato Nacional de Paellas Val ́Quirico 2018 serás parte de una dura competencia, donde los mejores paelleros de todo el país serán juzgados por grandes chefs y los mismos comensales.</p>
+                        <br>
+                        <p>Viviremos una gran fiesta en Val ́Quirico, un recinto en medio de la naturaleza con arquitectura toscana. El olor de las diferentes paellas, el sabor de los vinos nacionales e internacionales y la música que tenemos preparada para ustedes, harán que pases una tarde sin igual.</p>
+
+                    </div>
+                    <div id="scene25" class="scene25">
+                        <div data-depth="0.80">
+                            <img id="imgTazon" src="img/tazon.png">
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-6">
-            <div class="descripcion">
-              <p>En el Campeonato Nacional de Paellas Val ́Quirico 2018 serás parte de una dura competencia, donde los mejores
-                paelleros de todo el país serán juzgados por grandes chefs y los mismos comensales.</p>
-              <br>
-              <p>Viviremos una gran fiesta en Val ́Quirico, un recinto en medio de la naturaleza con arquitectura toscana. El
-                olor de las diferentes paellas, el sabor de los vinos nacionales e internacionales y la música que tenemos
-                preparada para ustedes, harán que pases una tarde sin igual.</p>
-    
-            </div>
-            <div id="scene25" class="scene25">
-              <div data-depth="0.80">
-                <img id="imgTazon" src="img/tazon.png">
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
     <!-- FIN SECCIÓN -->
-    
+
     <!-- SECCIÓN 4 -->
     <div class="container-fluid">
-      <div class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-4">
-        <div class="row giro">
-          <div class="row-100w rowTitulo4">
+        <div class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-4">
+            <div class="row giro">
+                <iframe id="videoPaella" width="660" height="415" src="https://www.youtube.com/embed/DXjvOi0UKzM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <br>
+                <div id="scene3" class="scene3">
+                    <div data-depth="0.80">
+                        <img id="imgCucharaArroz" src="img/cuchara_arroz.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FIN SECCIÓN -->
+    <!-- <div class="row-100w rowTitulo4">
             <h1 id="titulo4">Premios a los ganadores</h1>
           </div>
     
@@ -231,253 +129,209 @@
               <h3 class="p4">Primer lugar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$10,000</h3>
               <h3 class="p41">Segundo lugar&nbsp;&nbsp;&nbsp;&nbsp;$8,000</h3>
               <h3 class="p41">Tercer lugar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$5,000</h3>
-            </div>
-            <br>
-            <div id="scene3" class="scene3">
-              <div data-depth="0.80">
-                <img id="imgCucharaArroz" src="img/cuchara_arroz.png">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- FIN SECCIÓN -->
-    
+            </div>-->
     <!-- SECCIÓN 5 -->
     <div class="container-fluid">
-      <div class="row flex-items-xs-center slider-5 flex-items-xs-middle" id="sec-5">
-        <div class="row raritoRow">
-          <div class="col-xs-12">
-            <h1 class="moverDerecha">Inscripción $2,500.00,
-              <br>
-              <br> más 20 porciones de paella</h1>
-          </div>
-          <div class="col-xs-12">
-            <button class="btn btnBases " onclick="window.open('bases.html')">Bases del concurso</button>
-          </div>
-          <div class="col-xs-12">
-            <div id="scene4" class="scene4">
-              <div data-depth="0.05">
-                <img id="zanahoria" src="img/zanahorias.png">
-              </div>
+        <div class="row flex-items-xs-center slider-5 flex-items-xs-middle" id="sec-5">
+            <div class="row raritoRow">
+                <div class="col-xs-12">
+                    <h1 class="moverDerecha">Inscripción $2,500.00,
+                        <br>
+                        <br> más 20 porciones de paella</h1>
+                </div>
+                <div class="col-xs-12">
+                    <button class="btn btnBases " onclick="window.open('bases.html')">Bases del concurso</button>
+                </div>
+                <div class="col-xs-12">
+                    <div id="scene4" class="scene4">
+                        <div data-depth="0.05">
+                            <img id="zanahoria" src="img/zanahorias.png">
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="sombra"></div>
         </div>
-      </div>
     </div>
     <!-- FIN SECCIÓN -->
-    
+
     <!-- SECCIÓN 6 -->
-    <div class="container-fluid">
-      <div class="row flex-items-xs-center slider-6 flex-items-xs-middle" id="sec-6">
-          <div class="row-100w rowTitulo6">
-            <h1 id="titulo6">Compra tus boletos</h1>
-          </div>
-          <div class="row izquierda">
-          <div class="col-xs-5 ">
-            <div class="visitantes">
-              <h1 class="azul">Visitantes</h1><br>
-              <h3 class="recortado">Deseo asistir al evento y degustar todas las
-                  paellas acompañadas de un buen vino. Mientras
-                  disfruto la competencia culinaria en Val ́Quirico.</h3>
-              <button class="btn btnVisitante" onclick="window.open('https://campeonato-nacional-de-paellas.boletia.com/')">Compra en Boletia</button>
-            </div>
-          </div>
-          <div class="line"></div>
-          <div class="col-xs-5 ">
-            <div class="paelleros">
-              <h1 class="azul">Paelleros</h1><br>
-              <h3 class="recortado">Deseo participar en el evento con mi paella y
-                  lograr que la gente disfrute la comida mientras
-                  compito para calificar en los primeros tres lugares.</h3>
-                  <button class="btn btnPaellero" onclick="window.open('https://campeonato-nacional-de-paellas.boletia.com/')">Compra en Boletia</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
     <!-- FIN SECCIÓN -->
-    
+
     <!-- SECCIÓN 7 -->
     <div class="container-fluid">
-      <div class="row flex-items-xs-center slider-7 flex-items-xs-middle" id="sec-7">
-          <div class="row-100w rowTitulo7">
-              <h1 id="titulo7">Patrocinadores</h1>
+        <div class="row flex-items-xs-center slider-7 flex-items-xs-middle" id="sec-7">
+            <div class="row-100w rowTitulo7">
+                <h1 id="titulo7">Patrocinadores</h1>
             </div>
-        <div class="row row7">
-          <div class="col-xs-4 text-xs-center logos"><img class="bui" src="img/patrocinadores/bui.png">
-          </div>
-          <div class="col-xs-4 text-xs-center logos"><img class="floyd" src="img/patrocinadores/floyd.png">
-          </div>
-          <div class="col-xs-4 text-xs-center logos"><img class="monte" src="img/patrocinadores/monteXanic1.png">
-          
+            <div class="row row7">
+                <div class="col-xs-4 text-xs-center logos"><img class="mundo" src="img/patrocinadores/mundoVino.png">
+                </div>
+                <div class="col-xs-4 text-xs-center logos"><img class="meson" src="img/patrocinadores/mesonReyes.png">
+                </div>
+                <div class="col-xs-4 text-xs-center logos"><img class="valquirico " src="img/patrocinadores/VQlogo.png">
+
+                </div>
             </div>
-        </div>
-        <div class="row row7">
-            <div class="col-xs-4 text-xs-center logos"><img class="mundo" src="img/patrocinadores/mundoVino.png">
+            <div class="row row7">
+                <div class="col-xs-4 text-xs-center logos"><img class="monte " src="img/patrocinadores/monteXanic1.png">
+                </div>
+                <div class="col-xs-4 text-xs-center logos"><img class="heineken " src="img/patrocinadores/heineken.png">
+                </div>
+                <div class="col-xs-4 text-xs-center logos"><img class="bui" src="img/patrocinadores/bui.png">
+                </div>
             </div>
-            <div class="col-xs-4 text-xs-center logos"><img class="boletia" src="img/patrocinadores/boletia.png">
-            </div>
-            <div class="col-xs-4 text-xs-center logos"><img class="meson" src="img/patrocinadores/mesonReyes.png">
-              </div>
-          </div>
-          <div class="row row7">
-              <div class="col-xs-4 text-xs-center logos"><img class="heineken" src="img/patrocinadores/heineken.png">
-              </div>
-              <div class="col-xs-4 text-xs-center logos"><img class="jokker" src="img/patrocinadores/jokker.png">
-              </div>
-              <div class="col-xs-4 text-xs-center logos"><img class="opalo" src="img/patrocinadores/opalo.png">
+            <div class="row row7">
+                <div class="col-xs-4 text-xs-center logos"><img class="boletia " src="img/patrocinadores/boletia.png">
+                </div>
+                <div class="col-xs-4 text-xs-center logos"><img class="floyd " src="img/patrocinadores/floyd.png">
+                </div>
+                <div class="col-xs-4 text-xs-center logos"><img class="opalo" src="img/patrocinadores/opalo.png">
                 </div>
             </div>
             <div class="row row7">
                 <div class="col-xs-4 logos">
                 </div>
-                <div class="col-xs-4 text-xs-center logos"><img class="valquirico" src="img/patrocinadores/VQlogo.png">
+                <div class="col-xs-4 text-xs-center logos"><img class="jokker " src="img/patrocinadores/jokker.png">
                 </div>
                 <div class="col-xs-4 logos">
-                  </div>
-              </div>
-      </div>
-    </div>
-    <!-- FIN SECCIÓN -->
-    
-    <!-- SECCIÓN 7 -->
-    <div class="container-fluid">
-      <div class="row flex-items-xs-center slider-8 flex-items-xs-middle" id="sec-8">
-        <div class="row rowMapa">
-          <div class="col-xs-12">
-              <div id="map"></div>
-          </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <!-- FIN SECCIÓN -->
-    
+
+    <!-- SECCIÓN 8 -->
+    <div class="container-fluid">
+        <div class="row flex-items-xs-center slider-8 flex-items-xs-middle" id="sec-8">
+            <div class="row rowMapa">
+                <div class="col-xs-12">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN SECCIÓN -->
+
     <!-- FOOTER -->
-    <div class="container-fluid footer">
+    <!--<div class="container-fluid footer">
       <div>
         <h6>Desarrollado por Ópalo Studio</h6>
       </div>
-    </div>
-  
-  <!-- FIN FOOTER -->
+    </div>-->
+
+    <!-- FIN FOOTER -->
 
 
 
-  <!-- jQuery first, then Tether, then Bootstrap JS. -->
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-  <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgaoHSbtK3Czv9imqCA4sYxweRW_7pAAo&callback=initMap">
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgaoHSbtK3Czv9imqCA4sYxweRW_7pAAo&callback=initMap">
     </script>
     <script src="js/jquery.nicescroll.min.js"></script>
-  <script>
-    var scene = document.getElementById('scene');
-    var parallax = new Parallax(scene);
-  </script>
+    <!-- Scroll -->
+    <script src="js/smooth-scroll.min.js"></script>
+    
+    <script>
+        smoothScroll.init({
+            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+            speed: 2000, // Integer. How fast to complete the scroll in milliseconds
+            easing: 'easeInOutCubic', // Easing pattern to use
+            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+            callback: function(anchor, toggle) {} // Function to run after scrolling
+        });
+    </script>
 
-  <script>
-    var scene2 = document.getElementById('scene2');
-    var parallax = new Parallax(scene2);
-  </script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>
 
-  <script>
-    var scene3 = document.getElementById('scene3');
-    var parallax = new Parallax(scene3);
-  </script>
+    <script>
+        var scene2 = document.getElementById('scene2');
+        var parallax = new Parallax(scene2);
+    </script>
 
-  <script>
-    var scene25 = document.getElementById('scene25');
-    var parallax = new Parallax(scene25);
-  </script>
+    <script>
+        var scene3 = document.getElementById('scene3');
+        var parallax = new Parallax(scene3);
+    </script>
 
-  <script>
-    var scene4 = document.getElementById('scene4');
-    var parallax = new Parallax(scene4);
-  </script>
+    <script>
+        var scene25 = document.getElementById('scene25');
+        var parallax = new Parallax(scene25);
+    </script>
 
-<script>
-    function initMap() {
-      var myLatLng = {lat: 19.1908, lng: -98.2910};
+    <script>
+        var scene4 = document.getElementById('scene4');
+        var parallax = new Parallax(scene4);
+    </script>
 
-      // Create a map object and specify the DOM element
-      // for display.
-      var map = new google.maps.Map(document.getElementById('map'), {
-        center: myLatLng,
-        zoom: 18
-      });
+    <script>
+        function initMap() {
+            var myLatLng = {
+                lat: 19.1908,
+                lng: -98.2910
+            };
 
-      // Create a marker and set its position.
-      var image = 'img/favicon.png';
-      var marker = new google.maps.Marker({
-        map: map,
-        icon: image,
-        position: myLatLng,
-        title: 'Hello World!'
-      });
-    }
+            // Create a map object and specify the DOM element
+            // for display.
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: myLatLng,
+                zoom: 18
+            });
 
-  </script>
-
-<script>
-    $(document).ready(function() {
-
-
-        $("#boxscroll").niceScroll({
-            cursorborder: "",
-            cursorcolor: "transparent",
-            smoothscroll: true,
-            scrollspeed: 120,
-            boxzoom: false
-        }); // First scrollable DIV
-
-
-    });
-
-</script>
-
-<script>
-    $(document).ready(function() {
+            // Create a marker and set its position.
+            var image = 'img/favicon.png';
+            var marker = new google.maps.Marker({
+                map: map,
+                icon: image,
+                position: myLatLng,
+                title: 'Hello World!'
+            });
+        }
+    </script>
 
 
-        $("#scroll").niceScroll({
-            cursorborder: "",
-            cursorcolor: "#303030",
-            smoothscroll: true,
-            scrollspeed: 180,
-            horizrailenabled: false,
-            boxzoom: false
-        }); // First scrollable DIV
+
+    <script>
+        $(document).ready(function() {
 
 
-    });
+            $("#scroll").niceScroll({
+                cursorborder: "",
+                cursorcolor: "#303030",
+                smoothscroll: true,
+                scrollspeed: 180,
+                horizrailenabled: false,
+                boxzoom: false
+            }); // First scrollable DIV
 
-</script>
 
-<script>
-$(window).scroll(
-    {
-        previousTop: 0
-    }, 
-    function () {
-    var currentTop = $(window).scrollTop();
-    if (currentTop < this.previousTop) {
-        $(".menu-1").fadeIn(1000);
-    } else {
-        $(".menu-1").fadeOut(1000);
-    }
-    this.previousTop = currentTop;
-});
-</script>
+        });
+    </script>
+
+    <script>
+        $(window).scroll({
+                previousTop: 0
+            },
+            function() {
+                var currentTop = $(window).scrollTop();
+
+                if (currentTop < this.previousTop) {
+                    $(".menu-1").fadeIn(1000);
+                } else {
+                    $(".menu-1").fadeOut(1000);
+                }
+                this.previousTop = currentTop;
+            });
+    </script>
 </body>
 
 </html>
