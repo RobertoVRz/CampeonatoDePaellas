@@ -66,7 +66,7 @@ p {
  * margin-top: -10px  */
 #cintillo {
   height: 350px;
-  margin-top: 250px; }
+  margin-top: 90%; }
 
 .footer {
   background: #444;
@@ -74,6 +74,34 @@ p {
   text-align: center;
   padding: 10px; }
 
+@media only screen and (max-width: 600px) {
+  #imgMesa {
+    margin: 0%; }
+
+  #imgCuchara {
+    height: 50px;
+    margin-top: 160%;
+    margin-left: 80%; }
+
+  #imgPaella {
+    margin-left: 30%;
+    margin-top: 10%;
+    height: 10px; }
+
+  #imgCu {
+    margin-left: -30%;
+    margin-top: 70%;
+    height: 50px; }
+
+  #imgHoja {
+    margin-left: 20%;
+    margin-top: 50%;
+    height: 50px; }
+
+  #imgTomate {
+    margin-left: -50%;
+    margin-top: 50%;
+    height: 50px; } }
 .slider-1 {
   background: #700961;
   background-image: url(../img/mesa.jpg);
@@ -133,31 +161,6 @@ p {
   margin-left: 450%;
   margin-top: 50%;
   height: 250px; }
-
-.textito {
-  margin-top: -50%;
-  height: 100vh;
-  width: 100%;
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  align-content: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 35px;
-  color: white; }
-
-.fondocolor {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 600px;
-  font-size: 30px;
-  opacity: 1;
-  padding: 15px;
-  color: white;
-  width: 100%;
-  position: relative; }
 
 .slider-3 {
   background-image: url(../img/arr.jpg);
