@@ -3,34 +3,32 @@
 	background-image: url(../img/ab.jpg)
 	background-repeat: no-repeat
 	background-size: cover
-	z-index: -1
+	z-index: 0
 
 .btnBases
-	background-color: transparent
-	border-style: solid
-	border-width: 3px
-	border-color: white
-	+redondeado(15px)
-	width: 200px
-	height: 50px
-	margin-left: 45%
-	margin-top: 15%
-	font-weight: 400 !important
-	color: white
-	&:hover
-		background-color: white
-		color: $azul
+	+btnBoletia(10px,$azul,white,white,$azul)
+	margin-top: 5%
+	margin-left: 41%
+	font-size: 25px
+	z-index: 0
 
-.moverDerecha
-	text-align: center
-	+Lora(white,normal,50px)
-	margin-top: 18%
+
+.scene4
+	height: 100vh
+	width: 100vw
+	
+
+#podium
+	margin-top: 50%
+	margin-left: 25%
+	height: 450px
+	position: relative
 
 #zanahoria
 	height: 500px
-	margin-left: 74%
 	margin-top: -20%
 	z-index: 99999
+	position: absolute
+	right: -200px
 
-.raritoRow
-	margin-top: 0%
+

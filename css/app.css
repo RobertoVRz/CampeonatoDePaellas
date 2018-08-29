@@ -80,12 +80,13 @@ p {
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
-  align-content: center; }
+  align-content: center;
+  z-index: 0; }
 
 .scene {
   width: 100%;
   height: 100%;
-  z-index: 2; }
+  z-index: -1; }
 
 .btnComprar {
   -webkit-border-radius: 10px;
@@ -96,11 +97,15 @@ p {
   margin-top: 20%;
   margin-left: 35%;
   font-size: 20px;
-  margin-top: -20%;
-  margin-left: 70%; }
+  margin-top: -40%;
+  margin-left: 40%;
+  z-index: 9; }
   .btnComprar:hover {
     color: #288292;
     background-color: white; }
+
+.botonCompra {
+  z-index: 9; }
 
 .container {
   width: 100%;
@@ -109,30 +114,44 @@ p {
 #imgMesa {
   margin: 0%; }
 
+#call {
+  font-family: "Lora", serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  color: white;
+  margin-top: -30%;
+  margin-left: 20%;
+  z-index: 0;
+  text-align: center !important;
+  text-shadow: 2px 2px black;
+  position: absolute; }
+
 #imgCuchara {
-  height: 250px;
+  height: 300px;
   margin-top: 160%;
-  margin-left: 80%; }
+  margin-left: 40%; }
 
 #imgPaella {
   margin-left: 30%;
   margin-top: 10%;
-  height: 500px; }
+  height: 550px; }
 
 #imgCu {
-  margin-left: -30%;
-  margin-top: 70%;
-  height: 500px; }
+  margin-left: 300%;
+  margin-top: 130%;
+  height: 300px; }
 
 #imgHoja {
   margin-left: 20%;
   margin-top: 50%;
-  height: 5oopx; }
+  height: 200px; }
 
-#imgTomate {
-  margin-left: 450%;
-  margin-top: 50%;
-  height: 250px; }
+#imgTazon1 {
+  margin-left: 240%;
+  margin-top: 30%;
+  height: 450px; }
 
 .textito {
   margin-top: -50%;
@@ -149,24 +168,11 @@ p {
   line-height: 35px;
   color: white; }
 
-.fondocolor {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 600px;
-  font-size: 30px;
-  opacity: 1;
-  padding: 15px;
-  color: white;
-  width: 100%;
-  position: relative; }
-
 .slider-3 {
   background-image: url(../img/arr.jpg);
   background-repeat: no-repeat;
-  background-size: cover; }
-
-.giro {
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg); }
+  background-size: cover;
+  z-index: 2; }
 
 #imgTomate3 {
   margin-left: -10%;
@@ -222,104 +228,84 @@ p {
   background-size: cover;
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
-  z-index: 0; }
+  z-index: 1; }
 
 #videoPaella {
   filter: drop-shadow(10px 30px 50px black);
-  position: relative;
-  margin-top: 15%;
+  position: fixed;
+  margin-top: 20%;
+  margin-left: 0%;
   z-index: 999; }
 
-.scene3 {
-  width: 500px;
-  height: 100vh; }
+#inscripcion {
+  font-family: "Lora", serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  color: white;
+  text-align: center; }
 
-.scene4 {
+.inscripcionDiv {
+  margin-top: 85%;
+  margin-left: 13%;
+  position: fixed;
+  width: 400px; }
+
+.giro {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.scene3 {
+  width: 600px;
   height: 100vh; }
 
 #imgCucharaArroz {
   height: 500px;
-  margin-top: 90%;
-  margin-left: -50%;
-  z-index: 3; }
-
-.p4 {
-  margin-top: 25px;
-  margin-left: 10%;
-  font-family: "Lora", serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 35px;
-  color: white; }
-
-.p41 {
-  margin-top: 50px;
-  margin-left: 10%;
-  font-family: "Lora", serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 35px;
-  color: white; }
-
-#titulo4 {
-  margin-left: 15%;
-  margin-top: 40%;
-  width: 100vw;
-  font-family: "Lora", serif;
-  font-size: 50px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 35px;
-  color: white; }
-
-.premios {
-  margin-top: 10%;
-  margin-left: 40%; }
+  margin-top: 75%;
+  margin-left: -90%;
+  z-index: 3;
+  position: fixed; }
 
 .slider-5 {
   background-image: url(../img/ab.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1; }
+  z-index: 0; }
 
 .btnBases {
-  background-color: transparent;
-  border-style: solid;
-  border-width: 3px;
-  border-color: white;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-  width: 200px;
-  height: 50px;
-  margin-left: 45%;
-  margin-top: 15%;
-  font-weight: 400 !important;
-  color: white; }
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #288292;
+  background-color: white;
+  margin-top: 20%;
+  margin-left: 35%;
+  font-size: 20px;
+  margin-top: 5%;
+  margin-left: 41%;
+  font-size: 25px;
+  z-index: 0; }
   .btnBases:hover {
-    background-color: white;
-    color: #288292; }
+    color: white;
+    background-color: #288292; }
 
-.moverDerecha {
-  text-align: center;
-  font-family: "Lora", serif;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 35px;
-  color: white;
-  margin-top: 18%; }
+.scene4 {
+  height: 100vh;
+  width: 100vw; }
+
+#podium {
+  margin-top: 50%;
+  margin-left: 25%;
+  height: 450px;
+  position: relative; }
 
 #zanahoria {
   height: 500px;
-  margin-left: 74%;
   margin-top: -20%;
-  z-index: 99999; }
-
-.raritoRow {
-  margin-top: 0%; }
+  z-index: 99999;
+  position: absolute;
+  right: -200px; }
 
 .slider-6 {
   background-color: #EBE9E6; }

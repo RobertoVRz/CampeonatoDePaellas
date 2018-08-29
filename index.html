@@ -27,13 +27,13 @@
                 <img id="cintillo" src="img/cintillo.png">
             </div>
             <div class="col-xs-3">
-                <a data-scroll href="#sec-3" class="btn btnMenu" role="button" aria-pressed="true">Descripción</a>
+                <a data-scroll href="#sec-1" class="btn btnMenu" role="button" aria-pressed="true">Boletos</a>
             </div>
             <div class="col-xs-3">
-                <a data-scroll href="#sec-4" class="btn btnMenu" role="button" aria-pressed="true">Registro</a>
+                <a data-scroll href="#sec-5" class="btn btnMenu" role="button" aria-pressed="true">Premios</a>
             </div>
             <div class="col-xs-3">
-                <a data-scroll href="#sec-5" class="btn btnMenu" role="button" aria-pressed="true">Ubicación</a>
+                <a data-scroll href="#sec-8" class="btn btnMenu" role="button" aria-pressed="true">Ubicación</a>
             </div>
         </div>
     </div>
@@ -49,19 +49,24 @@
                     <div data-depth="0.20">
                         <img id="imgPaella" src="img/paella.png">
                     </div>
-                    <div data-depth="0.60">
+                    <div data-depth="0.30">
                         <img id="imgHoja" src="img/hoja.png">
                     </div>
-
-                    <div data-depth="0.60">
-                        <img id="imgTomate" src="img/tomate.png">
+                    <div data-depth="0.20">
+                        <img id="imgTazon1" src="img/tazon.png">
                     </div>
-                    <div data-depth="0.80">
+                    <div data-depth="0.40">
                         <img id="imgCu" src="img/cuchara_arroz.png">
+                    </div>
+                    <div data-depth="0.90">
+                        <img id="imgCuchara" src="img/cuchara.png">
                     </div>
 
                 </div>
-                <button class="btn btnComprar" onclick="window.open('https://campeonato-nacional-de-paellas.boletia.com/')">Compra en Boletia</button>
+                <div class="botonCompra">
+                    <h1 id="call">Se parte del Campeonato de Paellas<br><br>27 Octubre 2018</h1>
+                    <button class="btn btnComprar" onclick="window.open('https://campeonato-nacional-de-paellas.boletia.com/')">Compra tus boletos</button>
+                </div>
             </div>
         </div>
     </div>
@@ -108,7 +113,12 @@
     <div class="container-fluid">
         <div class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-4">
             <div class="row giro">
-                <iframe id="videoPaella" width="660" height="415" src="https://www.youtube.com/embed/DXjvOi0UKzM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="videits">
+                    <iframe id="videoPaella" width="560" height="315" src="https://www.youtube.com/embed/DXjvOi0UKzM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="inscripcionDiv">
+                    <p id="inscripcion">Inscripción $2500<br> +<br> 50 porciones de 200 gr</p>
+                </div>
                 <br>
                 <div id="scene3" class="scene3">
                     <div data-depth="0.80">
@@ -135,9 +145,7 @@
         <div class="row flex-items-xs-center slider-5 flex-items-xs-middle" id="sec-5">
             <div class="row raritoRow">
                 <div class="col-xs-12">
-                    <h1 class="moverDerecha">Inscripción $2,500.00,
-                        <br>
-                        <br> más 20 porciones de paella</h1>
+                    <img id="podium" src="img/podium.png">
                 </div>
                 <div class="col-xs-12">
                     <button class="btn btnBases " onclick="window.open('bases.html')">Bases del concurso</button>
@@ -150,7 +158,6 @@
                     </div>
                 </div>
             </div>
-            <div class="sombra"></div>
         </div>
     </div>
     <!-- FIN SECCIÓN -->
