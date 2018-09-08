@@ -1,12 +1,33 @@
 @import "../mixins"
 
+@font-face 
+	font-family: "Gotham-Bold"
+	src: url('/fonts/Gotham-Bold/Gotham-Bold.eot')
+	src: local('/fonts/Gotham-Bold/Gotham-Bold.svg') format('svg')
+	src: url('/fonts/Gotham-Bold/Gotham-Bold.otf') format('opentype')
+	src: url('/fonts/Gotham-Bold/Gotham-Bold.ttf') format('truetype')
+	src: url('/fonts/Gotham-Bold/Gotham-Bold.woff') format('woff')
+	
+
+@font-face 
+	font-family: "Superclarendon-Regular"
+	src: url('/fonts/Superclarendon-Regular/Superclarendon-Regular.eot')
+	src: local('/fonts/Superclarendon-Regular/Superclarendon-Regular.svg') format('svg')
+	src: url('/fonts/Superclarendon-Regular/Superclarendon-Regular.otf') format('opentype')
+	src: url('/fonts/Superclarendon-Regular/Superclarendon-Regular.ttf') format('truetype')
+	src: url('/fonts/Superclarendon-Regular/Superclarendon-Regular.woff') format('woff')
+
 .menu-1
 	height: 50px
-	background: #670008
+	background: #8D0221
 
 
 .btnMenu
-	+Lora(white, normal, 25px)
+	font-family: Gotham-Bold
+	font-weight: 100
+	font-size: 30px
+	color: white
+	//+Lora(white, normal, 25px)
 	&:hover
 		color: white
 		text-decoration: underline

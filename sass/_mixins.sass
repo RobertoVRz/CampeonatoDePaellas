@@ -1,5 +1,6 @@
 // GLOBAL MIXINS
-@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto:300,400')
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,600,700|Roboto:300,400')
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,600,700')
 // MIXIN DE NAVBAR GRADIENTE
 =grad-color($lado,$grad1, $grad2)
     background: -webkit-linear-gradient($lado, $grad1, $grad2)
@@ -28,6 +29,10 @@
     -moz-box-shadow: $shadowColor
     box-shadow: $shadowColor
 
+=margin-tl($top, $left)
+    margin-top: $top
+    margin-left: $left
+
 =boton-base()
     flex: 1 1 auto
     margin: 10px
@@ -46,6 +51,14 @@
     line-height: 35px
     color: $color
 
+=Zilla($color,$tipo,$size,$peso)
+    font-family: 'Zilla Slab', serif
+    font-size: $size
+    font-style: $tipo
+    font-weight: $peso
+    line-height: 35px
+    color: $color
+
 =Roboto($color, $tipo,$size)
     font-family: 'Roboto', sans-serif
     font-size: $size
@@ -61,9 +74,11 @@
     margin-top: 20%
     margin-left: 35%
     font-size: 20px
+    border: 2px solid $color
     &:hover
         color: $color2
         background-color: $back2
+        border: 2px solid $color2
 
 
 

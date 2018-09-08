@@ -27,7 +27,7 @@
                 <img id="cintillo" src="img/cintillo.png">
             </div>
             <div class="col-xs-3">
-                <a data-scroll href="#sec-1" class="btn btnMenu" role="button" aria-pressed="true">Boletos</a>
+                <a data-scroll href="#sec-2" class="btn btnMenu" role="button" aria-pressed="true">Boletos</a>
             </div>
             <div class="col-xs-3">
                 <a data-scroll href="#sec-5" class="btn btnMenu" role="button" aria-pressed="true">Premios</a>
@@ -43,6 +43,7 @@
     <div class="container">
         <div class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-1">
             <div id="container-fluid" class="container">
+                    <!--<img id="imgPantalla" src="img/new/pantallita.png">-->
 
                 <div id="scene" class="scene">
                     <!--<div data-depth="0.20"><img id="imgMesa" src="img/mesa.jpeg"></div>-->
@@ -58,14 +59,15 @@
                     <div data-depth="0.40">
                         <img id="imgCu" src="img/cuchara_arroz.png">
                     </div>
-                    <div data-depth="0.90">
-                        <img id="imgCuchara" src="img/cuchara.png">
-                    </div>
+                   
 
                 </div>
                 <div class="botonCompra">
-                    <h1 id="call">Sé parte del Campeonato de Paellas<br><br>27 Octubre 2018</h1>
-                    <button class="btn btnComprar" onclick="window.open('https://campeonato-nacional-de-paellas.boletia.com/')">Compra tus boletos</button>
+                    <div class="colorTexto">
+                        <h1 class="call" id="movible">Campeonato</h1>
+                        <h1 class="call"><br><br><br><br><br><br><br><br><span class="sipi2">Demuestra que eres<br> el mejor paellero</span><br><span class="sipi3">27 Octubre 2018</span></h1>
+                    </div>
+                    <button class="btn btnComprar" onclick="window.open('https://campeonato-nacional-de-paellas.boletia.com/')">Compra tus Boletos</button>
                 </div>
             </div>
         </div>
@@ -82,6 +84,7 @@
             <div class="row ">
                 <div class="row rowTitulo">
                     <h1 id="titulo3">¡Demuestra que tu paella es la mejor!</h1>
+                    <img id="tenedores" src="img/new/cosas-01.png">
                 </div>
 
                 <div class="col-6  ">
@@ -98,71 +101,109 @@
                         <p>Viviremos una gran fiesta en Val ́Quirico, un recinto en medio de la naturaleza con arquitectura toscana. El olor de las diferentes paellas, el sabor de los vinos nacionales e internacionales y la música que tenemos preparada para ustedes, harán que pases una tarde sin igual.</p>
 
                     </div>
-                    <div id="scene25" class="scene25">
+                    <img id="diamante" src="img/new/diamante.svg">
+                    <!--<div id="scene25" class="scene25">
                         <div data-depth="0.80">
                             <img id="imgTazon" src="img/tazon.png">
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
     </div>
     <!-- FIN SECCIÓN -->
 
-    <!-- SECCIÓN 4 -->
-    <div class="container-fluid">
-        <div class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-4">
-            <div class="row giro">
-                <div class="videits">
-                    <iframe id="videoPaella" width="560" height="315" src="https://www.youtube.com/embed/DXjvOi0UKzM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-                <div class="inscripcionDiv">
-                    <p id="inscripcion">Inscripción $2500<br> +<br> 50 porciones de 200 gr</p>
-                </div>
-                <br>
-                <div id="scene3" class="scene3">
-                    <div data-depth="0.80">
-                        <img id="imgCucharaArroz" src="img/cuchara_arroz.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- FIN SECCIÓN -->
-    <!-- <div class="row-100w rowTitulo4">
-            <h1 id="titulo4">Premios a los ganadores</h1>
-          </div>
-    
-          <div class="col-12 ">
-            <div class="premios">
-              <h3 class="p4">Primer lugar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$10,000</h3>
-              <h3 class="p41">Segundo lugar&nbsp;&nbsp;&nbsp;&nbsp;$8,000</h3>
-              <h3 class="p41">Tercer lugar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$5,000</h3>
-            </div>-->
-    <!-- SECCIÓN 5 -->
-    <div class="container-fluid">
+     <!-- SECCIÓN 5 -->
+     <div class="container-fluid">
         <div class="row flex-items-xs-center slider-5 flex-items-xs-middle" id="sec-5">
-            <div class="row raritoRow">
+            <div class="row raritoRow giro">
                 <div class="col-xs-12">
-                    <img id="podium" src="img/podium.png">
+                    <img id="premios" src="img/new/premios.svg">
+                    <img id="podium" src="img/new/podio.svg">
                 </div>
                 <div class="col-xs-12">
                     <button class="btn btnBases " onclick="window.open('bases.html')">Bases del concurso</button>
                 </div>
-                <div class="col-xs-12">
-                    <div id="scene4" class="scene4">
-                        <div data-depth="0.05">
-                            <img id="zanahoria" src="img/zanahorias.png">
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
     <!-- FIN SECCIÓN -->
+<!-- SECCIÓN 4 -->
+<div class="container-fluid">
+    <div class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-4">
+        <div class="row giro">
+            <div class="videits">
+                <iframe id="videoPaella" width="700" height="350" src="https://www.youtube.com/embed/DXjvOi0UKzM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            
+            <br>
+            <div id="scene3" class="scene3">
+                <div data-depth="0.30">
+                    <img id="imgCucharaArroz" src="img/cuchara_arroz.png">
+                    <img id="zanahoria" src="img/zanahorias.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+    
+    <!-- FIN SECCIÓN -->
+   
     <!-- SECCIÓN 6 -->
+    <div class="container-fluid">
+            <div class="row flex-items-xs-center slider-7 flex-items-xs-middle" id="sec-6">
+                
+                <div class="row row7">
+                    <div class="col-xs-4 text-xs-center logos2">
+                        <h1 class="tituAzul">COMPETIDORES</h1>
+                        <img src="img/new/lineaAzul.svg">
+                        <p class="parraf">Contaremos con la presencia de expertos de la Paella que competirán y demostrarán que su paella es la mejor.</p>
+                    </div>
+                    <div class="col-xs-4 text-xs-center logos2">
+                        <h1 class="tituAzul">PAELLAS PARA TODOS LOS GUSTOS</h1>
+                        <img class="imgArriba" src="img/new/lineaAzul.svg">
+                        <p class="parraf">Tendremos una degustación de diversas Paellas, la cual se llevará a
+                                cabo a partir de las 3:30 pm. Podrás degustar de todos los competidores
+                                y de la Paella del mesón de los Reyes.</p>
+                    </div>
+                    <div class="col-xs-4 text-xs-center logos3">
+                        <h1 class="tituAzul">CERVEZA DE CORTESÍA</h1>
+                        <img src="img/new/lineaAzul.svg">
+                        <p class="parraf">Te regalaremos una cerveza en el acceso. Disfruta de una bebida fría y
+                                de una atmósfera espectacular en compañía de tu familia, amigos o pareja.</p>
+                    </div>
+                </div>
+                <img id="camaronAzul" src="img/new/camaronesAzul.svg">
+            </div>
+        </div>
+
+    <!-- FIN SECCIÓN -->
+
+    <!-- SECCIÓN 2 -->
+    <div class="container-fluid">
+            <div class="row flex-items-xs-center slider-7 flex-items-xs-middle" id="sec-2">
+                
+                <div class="row row7">
+                    <div class="col-xs-4 text-xs-center logos4">
+                        <h1 class="tituAzul">ESCENARIO ARTÍSTICO</h1>
+                        <img src="img/new/lineaAzul.svg">
+                        <p class="parraf">Contaremos con un el escenario artístico y presentaciónes en vivo.</p>
+                    </div>
+                    <div class="col-xs-4 text-xs-center logos4">
+                        <h1 class="tituAzul">CONCURSOS</h1>
+                        <img src="img/new/lineaAzul.svg">
+                        <p class="parraf">Realizaremos concursos de bota, caída libre de Vino y muchos más.</p>
+                    </div>
+                    <div class="col-xs-4 text-xs-center logos5">
+                        <h1 class="tituAzul">CPABELLÓN DE VINOS</h1>
+                        <img src="img/new/lineaAzul.svg">
+                        <p class="parraf">Tendremos muchas promociones y venta de vinos Mexicanos, Españoles y Franceses. Nuestras Bodegas aliadas darán degustaciones y promociones.</p>
+                    </div>
+                </div>
+                <img id="rana" src="img/new/pleca.png">
+            </div>
+        </div>
 
     <!-- FIN SECCIÓN -->
 

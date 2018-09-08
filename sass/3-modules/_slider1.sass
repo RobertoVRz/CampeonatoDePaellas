@@ -8,6 +8,11 @@
 	align-content: center
 	z-index: 0
 
+#imgPantalla
+	position: absolute
+	width: 900px
+	height: 700px
+	z-index: 0
 
 .scene
 	width: 100%
@@ -16,13 +21,17 @@
 
 .btnComprar
 	+btnBoletia(10px,white,$azul,$azul,white)
-	margin-top: -40%
-	margin-left: 40%
+	margin-top: -45%
+	margin-left: 38%
 	z-index: 9
+	font-size: 30px !important
+	border: none
+	
 	
 
 .botonCompra
-	z-index: 9
+	margin-top: 3%
+	background-color: black !important
 	
 
 .container
@@ -33,14 +42,38 @@
 #imgMesa
 	margin: 0%
 
-#call
-	+Lora(white, normal, 50px) 
-	margin-top: -30%
-	margin-left: 20%
+.call
+	+Lora(white,bold,50px)
+	font-weight: 500
+	//+Lora(white, normal, 50px) 
+	margin-top: -54%
+	margin-left: 35%
 	z-index: 0
 	text-align: center !important
-	text-shadow: 2px 2px black
+	text-shadow: 2px 2px rgba(0,0,0, 0.2)
 	position: absolute
+
+#movible
+	margin-top: -39%
+	margin-left: 38%
+	
+	
+	
+	
+.sipi1
+	font-size: 60px
+	z-index: 2 !important
+
+.sipi2
+	line-height: 45px
+	font-size: 42px
+
+.sipi3
+	font-size: 33px
+	font-style: italic
+	
+
+
 
 #imgCuchara
 	height: 300px
@@ -50,9 +83,10 @@
 	
 
 #imgPaella
-	margin-left: 30%
-	margin-top: 10%
-	height: 550px
+	margin-left: 27%
+	margin-top: 5%
+	height: 650px
+	z-index: -1
 	
 
 #imgCu
@@ -62,9 +96,10 @@
 	
 
 #imgHoja
-	margin-left: 20%
-	margin-top: 50%
-	height: 200px
+	margin-left: 50px
+	margin-top: 450px
+	height: 150px
+	position: absolute
 
 
 #imgTazon1
@@ -72,14 +107,5 @@
 	margin-top: 30%
 	height: 450px
 	
-
-.textito
-	margin-top: -50%
-	height: 100vh
-	width: 100%
-	position: relative
-	z-index: 2
-	text-align: center
-	align-content: center
-	+Roboto(white, normal, 30px)
+	
 
