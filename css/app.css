@@ -117,8 +117,6 @@ p {
   border-radius: 10px;
   color: white;
   background-color: #288292;
-  margin-top: 20%;
-  margin-left: 35%;
   font-size: 20px;
   border: 2px solid white;
   margin-top: -45%;
@@ -151,7 +149,7 @@ p {
   color: white;
   font-weight: 500;
   margin-top: -54%;
-  margin-left: 35%;
+  margin-left: 22%;
   z-index: 0;
   text-align: center !important;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
@@ -363,8 +361,6 @@ p {
   border-radius: 10px;
   color: #288292;
   background-color: white;
-  margin-top: 20%;
-  margin-left: 35%;
   font-size: 20px;
   border: 2px solid #288292;
   margin-top: 3%;
@@ -506,7 +502,51 @@ p {
 
 #map {
   height: 100%;
-  width: 50%; }
+  width: 102%;
+  margin-left: -2%; }
+
+.finalita {
+  width: 90%; }
+
+.info {
+  color: #288292;
+  text-align: center;
+  font-size: 25px; }
+
+.btnComprar2 {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: #288292;
+  font-size: 20px;
+  border: 2px solid white;
+  font-size: 30px !important;
+  border: none; }
+  .btnComprar2:hover {
+    color: #288292;
+    background-color: white;
+    border: 2px solid #288292; }
+
+.contenedor {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: -5%; }
+
+.iconos {
+  font-size: 50px;
+  color: #288292;
+  cursor: pointer; }
+
+.fa-facebook-square:hover {
+  color: #3b5998; }
+
+.fa-instagram:hover {
+  background-size: 15px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 .titulin {
   font-family: "Roboto", sans-serif;
