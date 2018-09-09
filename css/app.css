@@ -436,7 +436,7 @@ p {
 
 #titulo7 {
   color: #288292;
-  width: 100%; }
+  width: 100vw; }
 
 .row7 {
   width: 100%; }
@@ -486,15 +486,27 @@ p {
   height: 100px;
   padding: 10px; }
 
+.cosas {
+  display: inline-block;
+  margin-left: 6%; }
+
+#cosa10 {
+  width: 30%; }
+
+#cosa11 {
+  width: 30%;
+  margin-left: -1.5%; }
+
 .slider-8 {
-  background-color: black; }
+  background-color: white; }
 
 .rowMapa {
   height: 100%;
   width: 100%; }
 
 #map {
-  height: 100%; }
+  height: 100%;
+  width: 50%; }
 
 .titulin {
   font-family: "Roboto", sans-serif;
