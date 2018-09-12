@@ -30,28 +30,19 @@ p {
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@font-face {
-  font-family: "Gotham-Bold";
-  src: url("/fonts/Gotham-Bold/Gotham-Bold.eot");
-  src: local("/fonts/Gotham-Bold/Gotham-Bold.svg") format("svg");
-  src: url("/fonts/Gotham-Bold/Gotham-Bold.otf") format("opentype");
-  src: url("/fonts/Gotham-Bold/Gotham-Bold.ttf") format("truetype");
-  src: url("/fonts/Gotham-Bold/Gotham-Bold.woff") format("woff"); }
-@font-face {
-  font-family: "Superclarendon-Regular";
-  src: url("/fonts/Superclarendon-Regular/Superclarendon-Regular.eot");
-  src: local("/fonts/Superclarendon-Regular/Superclarendon-Regular.svg") format("svg");
-  src: url("/fonts/Superclarendon-Regular/Superclarendon-Regular.otf") format("opentype");
-  src: url("/fonts/Superclarendon-Regular/Superclarendon-Regular.ttf") format("truetype");
-  src: url("/fonts/Superclarendon-Regular/Superclarendon-Regular.woff") format("woff"); }
 .menu-1 {
   height: 50px;
   background: #8D0221; }
 
 .btnMenu {
-  font-family: Gotham-Bold;
   font-weight: 100;
   font-size: 30px;
+  color: white;
+  font-family: "Lora", serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
   color: white; }
   .btnMenu:hover {
     color: white;
@@ -69,20 +60,9 @@ p {
   display: float;
   z-index: 0; }
 
-/*.sombra2
- * -webkit-filter: blur(5px)
- * -moz-filter: blur(5px)
- * -o-filter: blur(5px)
- * -ms-filter: blur(5px)
- * filter: blur(5px)
- * width: 120%
- * height: 15px
- * background-color: black
- * display: float
- * margin-left: -15px
- * margin-top: -10px  */
 #cintillo {
   height: 350px;
+  top: 0 !important;
   margin-top: 250px; }
 
 .footer {
@@ -91,6 +71,153 @@ p {
   text-align: center;
   padding: 10px; }
 
+@media only screen and (max-width: 600px) {
+  .menu-1 {
+    height: 50px;
+    background: yellow; }
+
+  .btnMenu {
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    color: white; }
+    .btnMenu:hover {
+      color: white;
+      text-decoration: underline; }
+
+  .sombra {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    display: float;
+    z-index: 0; }
+
+  #cintillo {
+    height: 350px;
+    margin-top: 250px; }
+
+  .footer {
+    background: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px; } }
+@media only screen and (max-width: 600px) {
+  .slider-1 {
+    background: black;
+    background-image: url(../img/mesa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    align-content: center;
+    z-index: 0; }
+
+  #imgPantalla {
+    position: absolute;
+    width: 500px !important;
+    height: 300px !important;
+    z-index: 0; }
+
+  .scene {
+    width: 100%;
+    height: 100%;
+    z-index: -1; }
+
+  .btnComprar {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #288292;
+    font-size: 20px;
+    border: 2px solid white;
+    margin-top: -45%;
+    margin-left: 38%;
+    z-index: 9;
+    font-size: 30px !important;
+    border: none; }
+    .btnComprar:hover {
+      color: #288292;
+      background-color: white;
+      border: 2px solid #288292; }
+
+  .botonCompra {
+    margin-top: 3%;
+    background-color: black !important; }
+
+  .container {
+    width: 100%;
+    height: 100%; }
+
+  #imgMesa {
+    margin: 0%; }
+
+  .call {
+    font-family: "Lora", serif;
+    font-size: 50px;
+    font-style: bold;
+    font-weight: 400;
+    line-height: 35px;
+    color: white;
+    font-weight: 500;
+    margin-top: -54%;
+    margin-left: 22%;
+    z-index: 0;
+    text-align: center !important;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    position: absolute; }
+
+  #movible {
+    margin-top: -39%;
+    margin-left: 38%; }
+
+  .sipi1 {
+    font-size: 60px;
+    z-index: 2 !important; }
+
+  .sipi2 {
+    line-height: 45px;
+    font-size: 42px; }
+
+  .sipi3 {
+    font-size: 33px;
+    font-style: italic; }
+
+  #imgCuchara {
+    height: 300px;
+    margin-top: 160%;
+    margin-left: 40%; }
+
+  #imgPaella {
+    margin-left: 27%;
+    margin-top: 5%;
+    height: 650px;
+    z-index: -1; }
+
+  #imgCu {
+    margin-left: 300%;
+    margin-top: 130%;
+    height: 300px; }
+
+  #imgHoja {
+    margin-left: 50px;
+    margin-top: 450px;
+    height: 150px;
+    position: absolute; }
+
+  #imgTazon1 {
+    margin-left: 240%;
+    margin-top: 30%;
+    height: 450px; } }
 .slider-1 {
   background: #700961;
   background-image: url(../img/mesa.jpg);

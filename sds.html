@@ -1,0 +1,345 @@
+<div class="container">
+    <form action="publish.php" method="post" id="form" enctype="multipart/form-data" autocomplete="off" onKeypress="if(event.keyCode == 13) event.returnValue = false;">
+
+        <div class="form-group" id="secPublicacion" style="margin-top:20px;">
+            <label id="textonew">Tipo de Publicación</label>
+            <select class="form-control" name="tipoPublicacion" id="tipoPublicacion" required>
+                <option value="default">Selecciona</option>
+                <option value="1">Venta</option>
+                <option value="2">Renta</option>
+            </select>
+        </div>
+
+        <div class="form-group" id="secInmueble" style="display: block;">
+            <label id="textonew">Tipo de Inmueble</label>
+            <select class="form-control" name="tipoInmueble" id="tipoInmueble" required>
+                <option value="default">Selecciona</option>
+                <option value="1">Casa</option>
+                <option value="2">Departamento</option>
+                <option value="3">Local</option>
+                <option value="4">Bodega</option>
+                <option value="5">Terreno</option>
+                <option value="6">Consultorio</option>
+                <option value="7">Oficina</option>
+                <option value="8">Rancho</option>
+                <option value="9">Otro</option>
+            </select>
+        </div>
+        <div class="form-group" id="titulo" style="display: block;">
+            <label id="textonew">Título</label>
+            <input type="text" maxlength="30" class="form-control" name="titulo" placeholder="30 caracteres máximo" required>
+        </div>
+
+        <div class="form-group" id="precioVenta" style="display: block;">
+            <label id="textonew">Precio de venta</label>
+            <input type="number" class="form-control" name="preciov" placeholder="">
+        </div>
+
+        <div class="form-group" id="precioRenta" style="display: block;">
+            <label id="textonew">Precio de renta</label>
+            <input type="number" class="form-control" name="precior" placeholder="">
+        </div>
+
+        <div class="form-group" id="recamaras" style="display: block;">
+            <label id="textonew">Recámaras</label>
+            <input type="number" class="form-control" name="cuartos" placeholder="">
+        </div>
+
+        <div class="form-group" id="banos" style="display: block;">
+            <label id="textonew">Baños</label>
+            <input type="number" class="form-control" name="banos" placeholder="">
+        </div>
+
+        <div class="form-group" id="metrosConstruccion" style="display: block;">
+            <label id="textonew">Metros cuadrados de construcción</label>
+            <input type="number" class="form-control" name="const" placeholder="">
+        </div>
+
+        <div class="form-group" id="espaciosEstacionamiento" style="display: block;">
+            <label id="textonew">Espacios de estacionamiento</label>
+            <input type="number" class="form-control" name="esp_est" placeholder="">
+        </div>
+
+        <div class="form-group" id="metrosTerreno" style="display: block;">
+            <label id="textonew">Metros cuadrados de terreno</label>
+            <input type="number" class="form-control" name="terreno" placeholder="">
+        </div>
+
+
+        <div class="form-group" id="frenteFondo" style="display: block;">
+            <label id="textonew">Metros de frente</label>
+            <input type="number" class="form-control" name="mfrente" placeholder="">
+            <label id="textonew">Metros de fondo</label>
+            <input type="number" class="form-control" name="mfondo" placeholder="">
+        </div>
+        <!--
+        <div class="card-group" id="tabla" style="display: block;">
+            <div class="card" id="tipoco">
+                <div class="card-body">
+                    <h5 class="card-title">Amenidades</h5>
+                    <div class="form-check" id="amenid" name="amenid" style="display: block;">
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Cine" name="amenid[]">
+                        <img src="../img/icoNaranaja/cine.svg" id="icos"> Cine
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Ludoteca" name="amenid[]">
+                        <img src="../images/icoNaranaja/ludoteca.svg" id="icos"> Ludoteca
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Bar" name="amenid[]">
+                        <img src="../images/icoNaranaja/bar.svg" id="icos"> Salón de eventos
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Centro de Negocios" name="amenid[]">
+                        <img src="../images/icoNaranaja/salanegocios.svg" id="icos"> Centro de Negocios
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Lavandería" name="amenid[]">
+                        <img src="../images/icoNaranaja/lavanderia.svg" id="icos"> Lavandería
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Amueblado" name="amenid[]">
+                        <img src="../images/icoNaranaja/amueblado.svg" id="icos"> Amueblado
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Parking" name="amenid[]">
+                        <img src="../images/icoNaranaja/parking.svg" id="icos"> Parking
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Elevador" name="amenid[]">
+                        <img src="../images/icoNaranaja/elevador.svg" id="icos"> Elevador
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Roof Garden" name="amenid[]">
+                        <img src="../images/icoNaranaja/roofgarden.svg" id="icos"> Roof Garden
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Gym" name="amenid[]">
+                        <img src="../images/icoNaranaja/gym.svg" id="icos"> Gym
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Cafeteria" name="amenid[]">
+                        <img src="../images/icoNaranaja/catering.svg" id="icos"> Cafetería
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="BBQ" name="amenid[]">
+                        <img src="../images/icoNaranaja/bbq.svg" id="icos"> BBQ
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Jacuzzi" name="amenid[]">
+                        <img src="../images/icoNaranaja/jacuzzi.svg" id="icos"> Jacuzzi
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Tennis" name="amenid[]">
+                        <img src="../images/icoNaranaja/tenis.svg" id="icos"> Tennis
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Bar" name="amenid[]">
+                        <img src="../images/icoNaranaja/bar.svg" id="icos"> Bar
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Comedor" name="amenid[]">
+                        <img src="../images/icoNaranaja/comedor.svg" id="icos"> Comedor
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Alberca" name="amenid[]">
+                        <img src="../images/icoNaranaja/alberca.svg" id="icos"> Alberca
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="SalaComputo" name="amenid[]">
+                        <img src="../images/icoNaranaja/salacomputo.svg" id="icos"> Sala de Cómputo
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Boliche" name="amenid[]">
+                        <img src="../images/icoNaranaja/boliche.svg" id="icos"> Boliche
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="SalonUsosMultiples" name="amenid[]">
+                        <img src="../images/icoNaranaja/salondeusosmultiples.svg" id="icos"> Salón de usos Múltiples
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="tipoico">
+                <div class="card-body">
+                    <h5 class="card-title">Servicios</h5>
+                    <div class="form-check" id="servicios" name="servicios" style="display: block;">
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Agua" name="servicios[]">
+                        <img src="../images/icoNaranaja/agua.svg" id="icos"> Agua
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Drenaje" name="servicios[]">
+                        <img src="../images/icoNaranaja/drenaje.svg" id="icos"> Drenaje
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Cable" name="servicios[]">
+                        <img src="../images/icoNaranaja/cable.svg" id="icos"> Cable
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Luz" name="servicios[]">
+                        <img src="../images/icoNaranaja/luz.svg" id="icos"> Luz
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Vigilancia" name="servicios[]">
+                        <img src="../images/icoNaranaja/vigilancia.svg" id="icos"> Vigilancia
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Limpieza" name="servicios[]">
+                        <img src="../images/icoNaranaja/limpieza.svg" id="icos"> Limpieza
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="card" id="tipoico">
+                <div class="card-body">
+                    <h5 class="card-title">Prohibiciones</h5>
+                    <br>
+                    <div class="form-check" id="prohibiciones" name="prohibiciones" style="display: block;">
+
+                        <input class="form-check-input" type="checkbox" value="Mascota" name="prohibic[]">
+                        <img src="../images/icoNaranaja/mascota.svg" id="icos"> Mascotas
+                        <br>
+                        <br>
+                        <br>
+                        <input class="form-check-input" type="checkbox" value="Fiestas" name="prohibic[]">
+                        <img src="../images/icoNaranaja/fiesta.svg" id="icos"> Fiestas
+                        <br>
+                        <br>
+                        <br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br> -->
+        <!--final cardgruop-->
+
+        <div class="wrap-upload-buttons" id="imagenes" style="display: block;">
+
+            <label id="textonew">Imágenes</label>
+            <form action="/upload-target" class="dropzone"></form>
+            <!--<div class="container">
+                <ul class="btn-nav">
+                    <li>
+                        <span>
+                            <img onclick="this.src='../images/cargar/imagenmas.svg';" src="vistas/img/cargar/imagenmascolor-01.svg" />
+                            <input type="file" name="file[]" click-type="type1" class="picupload" multiple accept="image/*" />
+                        </span>
+                        <span>&nbsp;&nbsp;Haz click para cargar tus imágenes</span>
+                    </li>
+                </ul>
+            </div>-->
+        </div>
+
+
+
+
+        <!--boostatrp modal-->
+        <div class="modal fade popups" id="hint_brand" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content clearfix">
+                    <div class="modal-body login-box clearfix">
+                        <!--user post text -wrap-->
+
+                        <!--user post text -wrap end-->
+                        <ul id="media-list" class="clearfix">
+                            <li class="myupload">
+                                <span>
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                            <input type="file" click-type="type2" id="picupload" class="picupload"
+                                                multiple>
+                                        </span>
+                            </li>
+                        </ul>
+
+                        <!--post btn wrap-->
+                        <div class="user-post-btn-wrap clearfix">
+                            <button type="button" class="btn btn-custom btn-grad" data-dismiss="modal">Continuar</button>
+                            <!--<input type="submit" class="btn" value="post">-->
+                        </div>
+                        <!--post btn wrap end-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--bootstrap modal end-->
+        <!--
+                <div class="form-group">
+                    <label for="file" id="textonew">Imágenes:</label> Subir imagen: <input type="file" name="file[]" multiple><br>
+                </div>
+-->
+        <br>
+        <br>
+        <br>
+        <div class="form-group" id="descripcion" style="display: block;">
+            <label for="exampleFormControlTextarea1" id="textonew">Descripción</label>
+            <textarea class="form-control" name="descrip" rows="3" id="descrip" required></textarea>
+        </div>
+
+        <div class="form-group" id="maps" style="display: block;">
+            <input type="hidden" name="lat" value="0">
+            <input type="hidden" name="long" value="0">
+            <input id="pac-input" class="controls" type="text" placeholder="Enter a location">
+            <div id="type-selector" class="controls">
+                <input type="radio" name="type" id="changetype-all" checked="checked">
+                <label for="changetype-all">All</label>
+
+                <input type="radio" name="type" id="changetype-establishment">
+                <label for="changetype-establishment">Establishments</label>
+
+                <input type="radio" name="type" id="changetype-address">
+                <label for="changetype-address">Addresses</label>
+
+                <input type="radio" name="type" id="changetype-geocode">
+                <label for="changetype-geocode">Geocodes</label>
+            </div>
+
+            <label for="exampleFormControlTextarea1" id="textonew">Ubicación</label>
+            <div id="map"></div>
+
+            <div class="form-control">
+                <input type="hidden" name="lat" id="lat" value="">
+                <input type="hidden" name="lng" id="lng" value="">
+            </div>
+
+        </div>
+        <button type="submit" class="btn btn-custom btn-grad" id="sub" style="display: block;">Publicar</button>
+
+    </form>
+
+</div>
