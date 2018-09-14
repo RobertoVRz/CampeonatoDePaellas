@@ -4,7 +4,7 @@
   
 #map
     height: 100%
-    width: 102%
+    width: 109%
     margin-left: -15px
 
 .finalita
@@ -40,5 +40,46 @@
         background-clip: text
         -webkit-text-fill-color: transparent
 
-        
+@media only screen and (max-width: 600px) 
+
+    .slider-8
+        background-color: white
+    
+    #map
+        height: 100%
+        width: 109%
+        margin-left: -15px
+
+    .finalita
+        width: 90%
+
+    .info
+        color: $azul
+        text-align: center
+        font-size: 18px
+
+    .btnComprar2
+        +btnBoletia(10px,white,$azul,$azul,white)
+        font-size: 20px !important
+        border: none
+
+    .contenedor
+        position: absolute
+        margin-top: 15%
+        margin-left: -15px
+
+    .iconos
+        font-size: 40px
+        color: $azul
+        cursor: pointer
+
+    .fa-facebook-square:hover
+        color: #3b5998
+
+    .fa-instagram:hover
+            background-size: 15px
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)
+            -webkit-background-clip: text
+            background-clip: text
+            -webkit-text-fill-color: transparent
     

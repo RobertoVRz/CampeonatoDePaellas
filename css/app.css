@@ -323,14 +323,14 @@ p {
     border-right-style: solid;
     height: 350px;
     padding: 30px;
-    margin-top: 100px;
+    margin-top: 355px;
     margin-left: 0px; }
 
   .logos5 {
     border: none;
     height: 350px;
     padding: 30px;
-    margin-top: 100px;
+    margin-top: -125px;
     margin-left: 0px; }
 
   .tituAzul {
@@ -347,7 +347,10 @@ p {
     width: 100%;
     height: 100px;
     position: relative;
-    bottom: -2px; } }
+    bottom: -2px; }
+
+  #par3 {
+    margin-top: -90px; } }
 .slider-3 {
   background-image: url(../img/arr.jpg);
   background-repeat: no-repeat;
@@ -542,10 +545,11 @@ p {
 
   #videoPaella {
     filter: drop-shadow(0px 30px 30px black);
-    margin-top: 30px;
-    margin-left: -5px;
-    width: 103vw;
-    z-index: 99; }
+    margin-top: -30px;
+    margin-left: -400px;
+    z-index: 999;
+    width: 100vw;
+    position: absolute; }
 
   #inscripcion {
     font-family: "Lora", serif;
@@ -671,7 +675,7 @@ p {
   border-right-style: solid;
   height: 350px;
   padding: 30px;
-  margin-top: 250px;
+  margin-top: 270px;
   margin-left: 0px; }
 
 .logos3 {
@@ -716,7 +720,7 @@ p {
     border: none;
     height: 350px;
     padding: 30px;
-    margin-top: 220px;
+    margin-top: 20px;
     margin-left: 0px; }
 
   .tituAzul {
@@ -733,16 +737,16 @@ p {
     margin-top: -8%; }
 
   #camaronAzul {
-    margin-top: 40px;
-    margin-left: 60px;
-    width: 70%;
+    margin-top: 210px;
+    margin-left: 40px;
+    width: 80%;
     position: absolutea; }
 
   #pa1 {
     margin-top: -130px; }
 
   #pa2 {
-    margin-top: -70px; } }
+    margin-top: -60px; } }
 .slider-7 {
   background-color: #e9e6e2; }
 
@@ -915,7 +919,7 @@ p {
 
 #map {
   height: 100%;
-  width: 102%;
+  width: 109%;
   margin-left: -15px; }
 
 .finalita {
@@ -961,6 +965,57 @@ p {
   background-clip: text;
   -webkit-text-fill-color: transparent; }
 
+@media only screen and (max-width: 600px) {
+  .slider-8 {
+    background-color: white; }
+
+  #map {
+    height: 100%;
+    width: 109%;
+    margin-left: -15px; }
+
+  .finalita {
+    width: 90%; }
+
+  .info {
+    color: #288292;
+    text-align: center;
+    font-size: 18px; }
+
+  .btnComprar2 {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #288292;
+    font-size: 20px;
+    border: 2px solid white;
+    font-size: 20px !important;
+    border: none; }
+    .btnComprar2:hover {
+      color: #288292;
+      background-color: white;
+      border: 2px solid #288292; }
+
+  .contenedor {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: -15px; }
+
+  .iconos {
+    font-size: 40px;
+    color: #288292;
+    cursor: pointer; }
+
+  .fa-facebook-square:hover {
+    color: #3b5998; }
+
+  .fa-instagram:hover {
+    background-size: 15px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; } }
 .titulin {
   font-family: "Roboto", sans-serif;
   font-size: 50px;
