@@ -260,8 +260,8 @@ p {
 
   #imgCuchara {
     margin-top: 400px;
-    margin-left: 150px;
-    height: 250px; }
+    margin-left: 180px;
+    height: 200px; }
 
   #imgPaella {
     margin-top: -100px;
@@ -391,10 +391,10 @@ p {
     z-index: 2; }
 
   #imgTomate3 {
-    margin-left: -10%;
-    margin-top: 35%;
+    margin-left: -75%;
+    margin-top: 160%;
     height: 300px;
-    z-index: 1; }
+    z-index: 0; }
 
   #imgTazon {
     height: 550px;
@@ -404,31 +404,33 @@ p {
 
   .scene2 {
     margin-top: -50%;
-    z-index: 1; }
+    z-index: 0; }
 
   .scene25 {
     margin-top: -30%;
     z-index: 1; }
 
   .descripcion {
-    margin-top: 10%;
-    margin-left: -10%;
+    margin-top: 25%;
+    margin-left: -80%;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: 35px;
     color: white;
     text-align: justify;
-    z-index: 2;
-    width: 100px; }
+    z-index: 9999;
+    width: 250px;
+    line-height: 1.4em;
+    letter-spacing: -1px; }
 
   #tenedores {
-    width: 50%;
-    height: 40%;
+    width: 80%;
+    height: 20%;
     position: absolute;
-    margin-top: -1%;
-    margin-left: 44%; }
+    margin-top: 17%;
+    margin-left: 20%; }
 
   #diamante {
     width: 99%;
@@ -438,11 +440,11 @@ p {
     margin-left: -17%; }
 
   #titulo3 {
-    margin-left: 46%;
-    margin-top: 5%;
+    margin-left: 27%;
+    margin-top: 12%;
     width: 100vw;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-style: bold;
     font-weight: 300;
     line-height: 35px;
@@ -664,6 +666,43 @@ p {
   width: 80%;
   position: absolute; }
 
+@media only screen and (max-width: 600px) {
+  .slider-6 {
+    background-color: #EBE9E6; }
+
+  .logos2 {
+    border-color: #288292;
+    border-right-style: solid;
+    height: 350px;
+    padding: 30px;
+    margin-top: 250px;
+    margin-left: 0px; }
+
+  .logos3 {
+    border: none;
+    height: 350px;
+    padding: 30px;
+    margin-top: 250px;
+    margin-left: 0px; }
+
+  .tituAzul {
+    color: #288292;
+    font-weight: bold;
+    font-size: 30px; }
+
+  .parraf {
+    color: #288292;
+    text-align: justify;
+    font-size: 16px; }
+
+  .imgArriba {
+    margin-top: -8%; }
+
+  #camaronAzul {
+    margin-top: 600px;
+    margin-left: 140px;
+    width: 80%;
+    position: absolutea; } }
 .slider-7 {
   background-color: #e9e6e2; }
 
