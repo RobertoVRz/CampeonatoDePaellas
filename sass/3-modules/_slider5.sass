@@ -27,3 +27,40 @@
 
 .raritoRow
 	align-content: center
+
+@media only screen and (max-width: 600px)
+	.slider-5
+		background-image: url(../img/arr.jpg)
+		background-repeat: no-repeat
+		background-size: cover
+		-webkit-transform: rotate(180deg)
+		transform: rotate(180deg)
+
+	#premios 
+		+wh(80%,auto)
+		+margin-tl(0px,80px)
+		position: fixed
+		
+
+	#podium
+		+margin-tl(100px,90px)
+		height: 200px
+		width: 400px
+		
+
+	.btnBases
+		+btnBoletia(10px,$azul,white,white,$azul)
+		+margin-tl(0px,150px)
+		font-size: 20px
+		
+
+
+	.scene4
+		height: 100vh
+		width: 100vw
+
+	
+
+	.raritoRow
+		align-content: center
+		
