@@ -434,22 +434,27 @@
                 var currentTop = $(window).scrollTop();
 
                 if (currentTop < this.previousTop) {
-                    //$(".menu").fadeIn(1000);
-                    $("#cintillo").height(350);
+                    $(".menu").fadeIn(1000);
+                    $("#cintillo").fadeIn(1000);
                 } else {
-                    //$(".menu").fadeOut(1000);
-                    $("#cintillo").height(250);
+                    $(".menu").fadeOut(1000);
+                    $("#cintillo").fadeOut(1000);
                 }
                 this.previousTop = currentTop;
             });
     </script>
-    <!--
+
         <script>
         if (navigator.userAgent.search("Firefox") >= 0) {
-            $('#cintillo').css('margin-top', 'px');
+            $('#videoPaella').css('margin-top', '20px');
+            $('#imgCucharaArroz').css('margin-top', '20px');
+            $('#zanahoria').css('margin-top', '20px');
+            $('#videoPaella').css('margin-left', '-1000px');
+            $('#imgCucharaArroz').css('margin-left', '-1600px');
+            $('#zanahoria').css('margin-left', '-250px');
         }
         </script>
-   </!-->
+
 </body>
 
 </html>
