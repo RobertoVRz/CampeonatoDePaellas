@@ -99,7 +99,13 @@ p {
     height: 215px;
     position: fixed;
     z-index: 9999;
+<<<<<<< HEAD
     margin-left: 20px; } }
+=======
+    margin-left: 125px;
+  }
+}
+>>>>>>> 2ff2c51f2ef8ec2deef463ca084de5354762491f
 .slider-1 {
   background: #700961;
   background-image: url(../img/mesa.jpg);
@@ -211,7 +217,7 @@ p {
     background-color: #288292;
     font-size: 20px;
     border: 2px solid white;
-    margin-top: 390px;
+    margin-top: 375px;
     margin-left: 70px;
     font-size: 25px !important;
     border: none;
@@ -241,7 +247,13 @@ p {
     margin-left: -300px;
     text-align: center !important;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+<<<<<<< HEAD
     position: absolute; }
+=======
+    position: absolute;
+    z-index: 10;
+  }
+>>>>>>> 2ff2c51f2ef8ec2deef463ca084de5354762491f
 
   #movible {
     margin-top: 160px;
@@ -259,6 +271,7 @@ p {
     font-style: italic; }
 
   #imgCuchara {
+<<<<<<< HEAD
     margin-top: 400px;
     margin-left: 180px;
     height: 200px; }
@@ -268,6 +281,19 @@ p {
     margin-left: 110px;
     height: 210px;
     z-index: -1; }
+=======
+    margin-top: 240px;
+    margin-left: -30px;
+    height: 170px;
+  }
+
+  #imgPaella {
+    margin-top: 405px;
+    margin-left: 100px;
+    height: 200px;
+    z-index: -1;
+  }
+>>>>>>> 2ff2c51f2ef8ec2deef463ca084de5354762491f
 
   #imgCu {
     margin-top: 350px;
