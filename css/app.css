@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400,400i,600,700|Roboto:300,400");
 @import url("https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,600,700");
-@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,600,700|Roboto:300,400");
-@import url("https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,600,700");
 body {
-  overflow-x: hidden !important; }
+  overflow-x: hidden; }
 
 h1 {
   color: white; }
@@ -16,27 +14,26 @@ p {
 
 .slider-1, .slider-2, .slider-3, .slider-5, .slider-6, .slider-7, .slider-8 {
   height: 100vh;
-  width: 100vw;
-  position: relative; }
+  width: 100vw; }
 
 .slider-4 {
   height: 30vh; }
-
-.scene, .scene2, .scene3, .scene4, .scene5, .scene6, .scene7 {
-  position: relative; }
 
 /* Extra small devices (phones, 600px and down) */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+.menu {
+  background: #8D0221 !important; }
+
 .menu-1 {
   height: 50px;
   background: #8D0221; }
 
 .btnMenu {
   font-weight: 100;
-  font-size: 30px;
+  font-size: 15px;
   color: white;
   font-family: "Lora", serif;
   font-size: 25px;
@@ -57,77 +54,24 @@ p {
   width: 100%;
   height: 10px;
   background-color: black;
-  display: float;
   z-index: 0; }
 
 #cintillo {
   height: 350px;
-  margin-top: 250px; }
+  position: fixed;
+  z-index: 9999;
+  margin-left: 50px; }
 
-.footer {
-  background: #444;
-  color: #fff;
-  text-align: center;
-  padding: 10px; }
-
-@media only screen and (max-width: 600px) {
-  .menu-1 {
-    height: 50px;
-    background: #8D0221; }
-
-  .btnMenu {
-    font-weight: 100;
-    font-size: 15px;
-    color: white;
-    font-family: "Lora", serif;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px;
-    color: white; }
-    .btnMenu:hover {
-      color: white;
-      text-decoration: underline; }
-
-  .sombra {
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-    width: 100%;
-    height: 10px;
-    background-color: black;
-    display: float;
-    z-index: 0; }
-
-  #cintillo {
-    height: 200px;
-    margin-top: 150px; }
-
-  .footer {
-    background: #444;
-    color: #fff;
-    text-align: center;
-    padding: 10px; } }
 .slider-1 {
   background: #700961;
   background-image: url(../img/mesa.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  align-content: center;
-  z-index: 0; }
-
-#imgPantalla {
-  position: absolute;
-  width: 900px;
-  height: 700px;
-  z-index: 0; }
+  align-content: center; }
 
 .scene {
   width: 100%;
-  height: 100%;
-  z-index: -1; }
+  height: 100%; }
 
 .btnComprar {
   -webkit-border-radius: 10px;
@@ -137,26 +81,23 @@ p {
   background-color: #288292;
   font-size: 20px;
   border: 2px solid white;
-  margin-top: -45%;
-  margin-left: 38%;
-  z-index: 9;
+  margin-top: 500px;
+  margin-left: 550px;
   font-size: 30px !important;
-  border: none; }
+  border: none;
+  position: absolute; }
   .btnComprar:hover {
     color: #288292;
     background-color: white;
     border: 2px solid #288292; }
 
-.botonCompra {
-  margin-top: 3%;
-  background-color: black !important; }
+.colorTexto {
+  margin-top: 150px;
+  margin-left: 300px; }
 
 .container {
   width: 100%;
   height: 100%; }
-
-#imgMesa {
-  margin: 0%; }
 
 .call {
   font-family: "Lora", serif;
@@ -166,20 +107,18 @@ p {
   line-height: 35px;
   color: white;
   font-weight: 500;
-  margin-top: -54%;
-  margin-left: 22%;
-  z-index: 0;
+  margin-top: 0px;
+  margin-left: 0px;
   text-align: center !important;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
   position: absolute; }
 
 #movible {
-  margin-top: -39%;
-  margin-left: 38%; }
+  margin-top: -50px;
+  margin-left: 300px; }
 
 .sipi1 {
-  font-size: 60px;
-  z-index: 2 !important; }
+  font-size: 60px; }
 
 .sipi2 {
   line-height: 45px;
@@ -190,31 +129,29 @@ p {
   font-style: italic; }
 
 #imgCuchara {
-  height: 300px;
-  margin-top: 160%;
-  margin-left: 40%; }
+  margin-top: 400px;
+  margin-left: 150px;
+  height: 250px; }
 
 #imgPaella {
-  margin-left: 27%;
-  margin-top: 5%;
-  height: 650px;
-  z-index: -1; }
+  margin-top: 150px;
+  margin-left: 500px;
+  height: 350px; }
 
 #imgCu {
-  margin-left: 300%;
-  margin-top: 130%;
-  height: 300px; }
+  margin-top: 350px;
+  margin-left: 900px;
+  height: 250px; }
 
 #imgHoja {
-  margin-left: 50px;
-  margin-top: 450px;
-  height: 150px;
-  position: absolute; }
+  margin-top: 100px;
+  margin-left: 250px;
+  height: 150px; }
 
 #imgTazon1 {
-  margin-left: 240%;
-  margin-top: 30%;
-  height: 450px; }
+  margin-top: 50px;
+  margin-left: 950px;
+  height: 350px; }
 
 @media only screen and (max-width: 600px) {
   .slider-1 {
@@ -253,10 +190,6 @@ p {
       color: #288292;
       background-color: white;
       border: 2px solid #288292; }
-
-  .botonCompra {
-    margin-top: 3%;
-    background-color: black !important; }
 
   .container {
     width: 100%;
@@ -328,13 +261,15 @@ p {
   border-right-style: solid;
   height: 350px;
   padding: 30px;
-  margin-top: -20%; }
+  margin-top: 100px;
+  margin-left: 0px; }
 
 .logos5 {
   border: none;
   height: 350px;
   padding: 30px;
-  margin-top: -20%; }
+  margin-top: 100px;
+  margin-left: 0px; }
 
 .tituAzul {
   color: #288292;
@@ -348,9 +283,9 @@ p {
 
 #rana {
   width: 100%;
-  height: auto;
-  margin-top: 17%;
-  position: absolute; }
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 0px; }
 
 .slider-3 {
   background-image: url(../img/arr.jpg);
@@ -495,15 +430,14 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
-  z-index: 0; }
+  transform: rotate(180deg); }
 
 #videoPaella {
   filter: drop-shadow(0px 30px 30px black);
-  position: fixed;
-  margin-top: 45%;
-  margin-left: -8%;
-  z-index: 999; }
+  margin-top: 30px;
+  margin-left: -300px;
+  z-index: 999;
+  position: fixed; }
 
 #inscripcion {
   font-family: "Lora", serif;
@@ -525,27 +459,24 @@ p {
   transform: rotate(180deg); }
 
 .scene3 {
-  width: 600px;
-  height: 100vh; }
+  width: 100%;
+  height: 100%; }
 
 #imgCucharaArroz {
   height: 500px;
-  margin-top: 65%;
-  margin-left: -95%;
-  z-index: 3;
-  position: fixed; }
+  margin-top: 100px;
+  margin-left: -800px;
+  position: absolute; }
 
 #zanahoria {
-  height: 500px;
-  margin-top: 40%;
-  margin-left: 110%;
-  position: absolute; }
+  height: 350px;
+  margin-top: 100px;
+  margin-left: 550px; }
 
 .slider-5 {
   background-image: url(../img/arr.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 1;
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg); }
 
@@ -557,8 +488,8 @@ p {
   background-color: white;
   font-size: 20px;
   border: 2px solid #288292;
-  margin-top: 3%;
-  margin-left: 35%;
+  margin-top: 0px;
+  margin-left: 550px;
   font-size: 40px;
   padding: 5px 50px 5px 50px; }
   .btnBases:hover {
@@ -571,17 +502,18 @@ p {
   width: 100vw; }
 
 #premios {
-  height: 80%;
   width: 80%;
-  margin-top: -9%;
-  margin-left: 9%;
-  position: absolute; }
+  height: 80%;
+  margin-top: -80px;
+  margin-left: 150px; }
 
 #podium {
-  margin-top: 10%;
-  margin-left: 18%;
-  height: 350px;
-  position: relative; }
+  margin-top: -150px;
+  margin-left: 325px;
+  height: 350px; }
+
+.raritoRow {
+  align-content: center; }
 
 .slider-6 {
   background-color: #EBE9E6; }
@@ -591,13 +523,15 @@ p {
   border-right-style: solid;
   height: 350px;
   padding: 30px;
-  margin-top: 5%; }
+  margin-top: 250px;
+  margin-left: 0px; }
 
 .logos3 {
   border: none;
   height: 350px;
   padding: 30px;
-  margin-top: 5%; }
+  margin-top: 250px;
+  margin-left: 0px; }
 
 .tituAzul {
   color: #288292;
@@ -613,14 +547,13 @@ p {
   margin-top: -8%; }
 
 #camaronAzul {
-  margin-top: 20%;
+  margin-top: 600px;
+  margin-left: 140px;
   width: 80%;
   position: absolute; }
 
 .slider-7 {
-  background-color: #e9e6e2;
-  z-index: -1;
-  flex-wrap: wrap; }
+  background-color: #e9e6e2; }
 
 #sec-2, #sec-6 {
   background-color: white !important; }
@@ -628,6 +561,10 @@ p {
 #titulo7 {
   color: #288292;
   width: 100vw; }
+
+.rowTitulo7 {
+  margin-top: 25px;
+  margin-left: 0px; }
 
 .row7 {
   width: 100%; }
@@ -691,14 +628,10 @@ p {
 .slider-8 {
   background-color: white; }
 
-.rowMapa {
-  height: 100%;
-  width: 100%; }
-
 #map {
   height: 100%;
   width: 102%;
-  margin-left: -2%; }
+  margin-left: -15px; }
 
 .finalita {
   width: 90%; }
@@ -726,7 +659,7 @@ p {
 .contenedor {
   position: absolute;
   margin-top: 15%;
-  margin-left: -5%; }
+  margin-left: -15px; }
 
 .iconos {
   font-size: 50px;

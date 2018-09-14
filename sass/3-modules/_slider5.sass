@@ -3,14 +3,12 @@
 	background-image: url(../img/arr.jpg)
 	background-repeat: no-repeat
 	background-size: cover
-	z-index: 1
 	-webkit-transform: rotate(180deg)
 	transform: rotate(180deg)
 
 .btnBases
 	+btnBoletia(10px,$azul,white,white,$azul)
-	margin-top: 3%
-	margin-left: 35%
+	+margin-tl(0px,550px)
 	font-size: 40px
 	padding: 5px 50px 5px 50px
 
@@ -20,14 +18,12 @@
 	width: 100vw
 
 #premios 
-	height: 80%
-	width: 80%
-	+margin-tl(-9%,9%)
-	position: absolute
+	+wh(80%,80%)
+	+margin-tl(-80px,150px)
 
 #podium
-	margin-top: 10%
-	margin-left: 18%
+	+margin-tl(-150px,325px)
 	height: 350px
-	position: relative
 
+.raritoRow
+	align-content: center
