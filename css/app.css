@@ -283,6 +283,9 @@ p {
     margin-top: 50px;
     margin-left: 950px;
     height: 350px; } }
+.slider-coso {
+  background-color: #e9e6e2; }
+
 .logos4 {
   border-color: #288292;
   border-right-style: solid;
@@ -310,9 +313,9 @@ p {
 
 #rana {
   width: 100%;
-  position: absolute;
-  margin-top: 500px;
-  margin-left: 0px; }
+  height: 100px;
+  position: relative;
+  bottom: -1px; }
 
 .slider-3 {
   background-image: url(../img/arr.jpg);
@@ -511,7 +514,7 @@ p {
     margin-top: 30px;
     margin-left: -5px;
     width: 103vw;
-    z-index: 999; }
+    z-index: 99; }
 
   #inscripcion {
     font-family: "Lora", serif;
@@ -776,6 +779,80 @@ p {
   width: 30%;
   margin-left: -1.5%; }
 
+@media only screen and (max-width: 600px) {
+  .slider-7 {
+    background-color: #e9e6e2; }
+
+  #sec-2, #sec-6 {
+    background-color: white !important; }
+
+  #titulo7 {
+    color: #288292;
+    width: 100vw;
+    font-size: 15px; }
+
+  .rowTitulo7 {
+    margin-top: 25px;
+    margin-left: 0px; }
+
+  .row7 {
+    width: 100%; }
+
+  .bui {
+    height: 100%; }
+
+  .meson {
+    height: 100%; }
+
+  .mundo {
+    height: 100%; }
+
+  .monte {
+    height: 250%;
+    position: relative;
+    margin-top: -10%; }
+
+  .boletia {
+    height: 90%; }
+
+  .floyd {
+    height: 150%;
+    margin-top: -5%; }
+
+  .heineken {
+    height: 100%;
+    position: relative;
+    margin-top: -4%; }
+
+  .jokker {
+    height: 100%; }
+
+  .opalo {
+    height: 85%;
+    position: relative;
+    margin-top: 2%; }
+
+  .valquirico {
+    height: 120%;
+    position: relative;
+    margin-top: -5%; }
+
+  .logos {
+    border-color: transparent;
+    border-style: solid;
+    height: 100px;
+    padding: 10px; }
+
+  .cosas {
+    display: inline-block;
+    margin-left: 6%; }
+
+  #cosa10 {
+    width: 30%; }
+
+  #cosa11 {
+    width: 30%;
+    margin-left: -1.5%; } }
 .slider-8 {
   background-color: white; }
 
