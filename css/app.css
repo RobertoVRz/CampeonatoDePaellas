@@ -826,7 +826,7 @@ p {
   #titulo7 {
     color: #288292;
     width: 100vw;
-    font-size: 15px; }
+    font-size: 20px; }
 
   .rowTitulo7 {
     margin-top: 25px;
@@ -835,44 +835,64 @@ p {
   .row7 {
     width: 100%; }
 
-  .bui {
-    height: 100%; }
+  .mundo {
+    height: 100%;
+    margin-top: 0px;
+    margin-left: -180px; }
 
   .meson {
-    height: 100%; }
-
-  .mundo {
-    height: 100%; }
-
-  .monte {
-    height: 250%;
-    position: relative;
-    margin-top: -10%; }
-
-  .boletia {
-    height: 90%; }
-
-  .floyd {
-    height: 150%;
-    margin-top: -5%; }
-
-  .heineken {
-    height: 100%;
-    position: relative;
-    margin-top: -4%; }
-
-  .jokker {
-    height: 100%; }
-
-  .opalo {
-    height: 85%;
-    position: relative;
-    margin-top: 2%; }
+    height: 90%;
+    margin-top: -160px;
+    margin-left: 160px; }
 
   .valquirico {
-    height: 120%;
+    height: 95%;
     position: relative;
-    margin-top: -5%; }
+    margin-top: -5%;
+    margin-top: -100px;
+    margin-left: -180px; }
+
+  .monte {
+    height: 200%;
+    position: relative;
+    margin-top: -10%;
+    margin-top: -290px;
+    margin-left: 180px; }
+
+  .heineken {
+    height: 95%;
+    position: relative;
+    margin-top: -4%;
+    margin-top: -270px;
+    margin-left: 180px; }
+
+  .bui {
+    height: 100%;
+    margin-top: -470px;
+    margin-left: -180px; }
+
+  .boletia {
+    height: 60%;
+    margin-top: -430px;
+    margin-left: 160px; }
+
+  .floyd {
+    height: 120%;
+    margin-top: -5%;
+    margin-top: -620px;
+    margin-left: -150px; }
+
+  .opalo {
+    height: 60%;
+    position: relative;
+    margin-top: 2%;
+    margin-top: -640px;
+    margin-left: 180px; }
+
+  .jokker {
+    height: 70%;
+    margin-top: -1040px;
+    margin-left: -190px; }
 
   .logos {
     border-color: transparent;
@@ -882,7 +902,7 @@ p {
 
   .cosas {
     display: inline-block;
-    margin-left: 6%; }
+    margin-left: 5px; }
 
   #cosa10 {
     width: 30%; }
