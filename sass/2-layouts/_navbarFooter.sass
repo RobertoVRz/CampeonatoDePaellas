@@ -31,6 +31,36 @@
 	z-index: 9999
 	margin-left: 50px
 	
-		
+@media only screen and (max-width: 600px) 	
+	.menu
+		background: #8D0221 !important
 
-		
+	.menu-1
+		height: 50px
+		background: #8D0221
+
+	.btnMenu
+		font-weight: 100
+		font-size: 15px
+		color: white
+		+Lora(white, normal, 22px)
+		&:hover
+			color: white
+			text-decoration: underline
+
+	.sombra
+		-webkit-filter: blur(5px)
+		-moz-filter: blur(5px)
+		-o-filter: blur(5px)
+		-ms-filter: blur(5px)
+		filter: blur(5px)
+		width: 100%
+		height: 10px
+		background-color: black
+		z-index: 0
+
+	#cintillo
+		height: 215px
+		position: fixed
+		z-index: 9999
+		margin-left: 20px
